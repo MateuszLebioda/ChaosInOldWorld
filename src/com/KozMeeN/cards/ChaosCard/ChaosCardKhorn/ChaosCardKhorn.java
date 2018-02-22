@@ -1,8 +1,14 @@
 package com.KozMeeN.cards.ChaosCard.ChaosCardKhorn;
 
 import com.KozMeeN.cards.ChaosCard.ChaosCard;
+import com.KozMeeN.champions.Champion;
 
 abstract class ChaosCardKhorn extends ChaosCard {
+
+    ChaosCardKhorn(){
+       magicSymbol = false;
+       champion = Champion.KHORN_NAME;
+    }
     static String BLOODY_CRAZE = "Krwawy szał";
     static String MASSACRE_AREA = "Obszar rzezi";
     static String WAR_CRY = "Okrzyk wojenny";
@@ -23,6 +29,4 @@ abstract class ChaosCardKhorn extends ChaosCard {
     /**
      * variable is final because all of KhronCards have not magicSymbol.
      */
-    final boolean magicSymbol = false;
-
 }

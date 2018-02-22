@@ -9,8 +9,9 @@ import java.util.List;
 public class KhornChampion extends Champion {
 
     public KhornChampion(){
-      name = "Khorn";
+      name = Champion.KHORN_NAME;
       startAbilityPoints = 7;
+      abilityPoints = startAbilityPoints;
       valuesOfDangerPoints = new int[]{3, 6, 12, 14, 17, 23, 28, 31, 32, 100};
       indexOfDangerPoints = 0;
       deck = getDeck();
@@ -35,15 +36,6 @@ public class KhornChampion extends Champion {
 
       return deck;
     }
-    /**
-     *
-     * @param howMuch howMuch cards we want add
-     * @param card which card we want to add
-     * @param deck deck which we want to upgrade
-     */
-    private void addCard(int howMuch,ChaosCard card,List<ChaosCard> deck){
-        for(int i=0;i<howMuch;i++) deck.add(card);
-    }
 
     @Override
     void dangerPointsProfit(int indexOfDangerPoints) {
@@ -52,11 +44,11 @@ public class KhornChampion extends Champion {
 
             /**
              * Champions get 4 WinPoints;
-             * NOT DONE!!!!
+             * DONE!!!!
              */
             case 1: // pz 4
             case 4:{
-                increaseWinPoints();
+                increaseWinPoints(4);
                 break;
             }
 
@@ -86,10 +78,5 @@ public class KhornChampion extends Champion {
              */
             case 9: //win
         }
-    }
-
-    @Override
-    void increaseDangerPoints() {
-
     }
 }
