@@ -46,14 +46,19 @@ public abstract class Champion {
      * method allows us to choose cards as many as we want.
      * @param howMuch howMuch card we want to choose.
      */
-    public void choseCard(int howMuch){
-        for(int i=0;i<howMuch;i++) {
-            Random roll = new Random();
-            int random = roll.nextInt(deck.size());
-            onHandDeck.add(deck.get(random));
-            deck.remove(random);
+    public void choseCard(int howMuch) {
+
+        for (int i = 0; i < howMuch; i++) {
+            if (deck.size() > 0) {
+                Random roll = new Random();
+                int random = roll.nextInt(deck.size());
+                onHandDeck.add(deck.get(random));
+                deck.remove(random);
+            }
         }
     }
+
+
     abstract void dangerPointsProfit(int indexOfDangerPoints);
     abstract void increaseDangerPoints();
     protected void increaseWinPoints(){}
