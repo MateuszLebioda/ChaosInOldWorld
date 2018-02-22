@@ -1,6 +1,6 @@
-package com.KozMeeN.cards.ChaosCardKhorn;
+package com.KozMeeN.cards.ChaosCard.ChaosCardKhorn;
 
-import com.KozMeeN.cards.ChaosCard;
+import com.KozMeeN.cards.ChaosCard.ChaosCard;
 
 /**
  * Object representing "Krwawy szła" card.

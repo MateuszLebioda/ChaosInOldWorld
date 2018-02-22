@@ -1,12 +1,12 @@
-package com.KozMeeN.cards.ChaosCardKhorn;
+package com.KozMeeN.cards.ChaosCard.ChaosCardKhorn;
 
-import com.KozMeeN.cards.ChaosCard;
+import com.KozMeeN.cards.ChaosCard.ChaosCard;
 
 public class RitualMorderKhornChaosCard extends ChaosCardKhorn {
 
     private RitualMorderKhornChaosCard(){
-        name = ChaosCardKhorn.RITUAL_MORDER;
-        descriptions = ChaosCardKhorn.RITUAL_MORDER_DESCRIPTIONS;
+        name = ChaosCardKhorn.RITUAL_MURDER;
+        descriptions = ChaosCardKhorn.RITUAL_MURDER_DESCRIPTIONS;
         nowUse = true;
         manaCost = 1;
     }

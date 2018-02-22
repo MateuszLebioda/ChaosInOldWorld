@@ -1,12 +1,12 @@
-package com.KozMeeN.cards.ChaosCardKhorn;
+package com.KozMeeN.cards.ChaosCard.ChaosCardKhorn;
 
-import com.KozMeeN.cards.ChaosCard;
+import com.KozMeeN.cards.ChaosCard.ChaosCard;
 
 public class RebithInTheBloodKhornChaosCard extends ChaosCardKhorn {
 
     private RebithInTheBloodKhornChaosCard(){
-        name = ChaosCardKhorn.REBITH_IN_THE_BLOOD;
-        descriptions = ChaosCardKhorn.REBITH_IN_THE_BLOOD_DESCRIPTIONS;
+        name = ChaosCardKhorn.REBIRTH_IN_THE_BLOOD;
+        descriptions = ChaosCardKhorn.REBIRTH_IN_THE_BLOOD_DESCRIPTIONS;
         fightUse = true;
         manaCost = 2;
     }

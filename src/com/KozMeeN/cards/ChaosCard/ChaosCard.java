@@ -1,4 +1,4 @@
-package com.KozMeeN.cards;
+package com.KozMeeN.cards.ChaosCard;
 
 public abstract class ChaosCard {
 

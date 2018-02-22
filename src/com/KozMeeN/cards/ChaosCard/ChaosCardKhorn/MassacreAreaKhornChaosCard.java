@@ -1,12 +1,12 @@
-package com.KozMeeN.cards.ChaosCardKhorn;
+package com.KozMeeN.cards.ChaosCard.ChaosCardKhorn;
 
-import com.KozMeeN.cards.ChaosCard;
+import com.KozMeeN.cards.ChaosCard.ChaosCard;
 
 public class MassacreAreaKhornChaosCard extends ChaosCardKhorn {
 
     private MassacreAreaKhornChaosCard(){
         name = ChaosCardKhorn.MASSACRE_AREA;
-        descriptions = ChaosCardKhorn.MASACRE_AREA_DESCRIPTIONS;
+        descriptions = ChaosCardKhorn.MASSACRE_AREA_DESCRIPTIONS;
         nowUse = true;
         manaCost = 1;
     }
