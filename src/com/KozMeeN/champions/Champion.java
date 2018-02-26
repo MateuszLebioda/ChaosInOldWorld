@@ -15,7 +15,7 @@ import java.util.Random;
 public abstract class Champion {
 
     Champion(){
-        canPlay = true;
+        //canPlay = true;
     }
 
     public static String KHORN_NAME = "Khorn";
@@ -27,7 +27,7 @@ public abstract class Champion {
     /**
      * if can play == true player can do action in his round.
      */
-    boolean canPlay;
+    //private boolean canPlay;
 
     /**
      * maxAbilityPoints maximum values of AbilityPoints
@@ -35,7 +35,7 @@ public abstract class Champion {
      * abilityPoints actual values of AbilityPoints
      */
 
-    final int maxAbilityPoints = 12;
+    protected final int maxAbilityPoints = 12;
     protected int startAbilityPoints;
     protected int abilityPoints;
 
@@ -43,8 +43,8 @@ public abstract class Champion {
      * deck of our champion
      */
 
-    public List<ChaosCard> deck = new ArrayList<ChaosCard>();
-    public List<ChaosCard> onHandDeck = new ArrayList<ChaosCard>();
+    protected List<ChaosCard> deck = new ArrayList<ChaosCard>();
+    private  List<ChaosCard> onHandDeck = new ArrayList<ChaosCard>();
     public List<ChaosCard> throwDeck = new ArrayList<ChaosCard>();
 
     protected int winPoints;
@@ -54,13 +54,55 @@ public abstract class Champion {
     protected int dangerPoints;
 
 
+
+    /**
+     * @return deck chosen champion
+     */
+    public abstract List<ChaosCard> getDeck();
+
+    public List<ChaosCard> getOnHandDeck(){
+        return this.onHandDeck;
+    }
+
+    public ChaosCard getOnHandDeckCardById(int cardId){
+        if(cardId<=onHandDeck.size()&&cardId>=0&&onHandDeck.size()!=0) {
+            return onHandDeck.get(cardId);
+        }else if(cardId>onHandDeck.size()){
+            System.err.println("Wrong number of index, do not have enough card to use this Id. Return default value null");
+            return null;
+        }else if(cardId<0){
+            System.err.println("Wrong number of index, value can not be negative. Return default value null");
+            return null;
+        }else if(onHandDeck.size()==0){
+            System.err.println("Wrong number of index, have not any cards onHand. Return default value null");
+            return null;
+        }else{
+            System.err.println("getOnHandDeck do another options.");
+            return null;
+        }
+    }
+
+    /**
+     * method remove selected card form onHandDeck
+     * @param cardId id of card which we want to remove.
+     */
+    public void removeCardFromHandDeck(int cardId) {
+        if(cardId<=onHandDeck.size()&&cardId>=0&&onHandDeck.size()!=0) {
+            onHandDeck.remove(cardId);
+        }else {
+            System.err.println("Wrong number of index. Can not remove a card. ");
+        }
+    }
+
     /**
      * method allows us to choose cards as many as we want.
      * @param howMuch howMuch card we want to choose.
      */
     public void choseCard(int howMuch) {
         if(deck.size()<howMuch){
-            System.out.println("Nie można dobrać tylu kart!\nZostanie dobrane: " + deck.size() + " kart.");
+            System.err.println("Can not chose this number of cards. We chose maximum value of it.");
+        } else if(howMuch == 0){
+            System.err.println("Can not chose 0 cards.");
         }
         for (int i = 0; i < howMuch; i++) {
 
@@ -77,10 +119,10 @@ public abstract class Champion {
      * Checks if u can do next move.
      * Your turn is end when yours manaPoints ale equals 0.
      */
-    public void canPlay(){
-        if(abilityPoints ==0){
-            canPlay = false;
-        }
+    public boolean canPlay(){
+        if(abilityPoints>0){
+            return true;
+        }return false;
     }
 
     /**
@@ -95,16 +137,20 @@ public abstract class Champion {
      * method will increase dangerPoints
      */
     public void increaseDangerPoints(){
-        if(indexOfDangerPoints<=valuesOfDangerPoints.length) {
+        if(indexOfDangerPoints<valuesOfDangerPoints.length-1) {
             indexOfDangerPoints++;
             dangerPoints = valuesOfDangerPoints[indexOfDangerPoints];
+        }else{
+            System.err.println("dangerPoints achieve maximal value. Can not increase more.");
         }
     }
+
+
 
     /**
      * method will increase winPoints.
      */
-    protected void increaseWinPoints(int howMany){
+    public void increaseWinPoints(int howMany){
         winPoints += howMany;
     }
 
@@ -128,23 +174,32 @@ public abstract class Champion {
      * when we play a card method will return true, so we will be able to delete this card in your onHandsCard, and put in into throwCard.
      * when we did not play a card, method will return false.
      */
-    public boolean setCard(ChaosCard card, Region box){
-        if(card.getManaCost()<= abilityPoints) {
-            if (!box.isBoxOneOccupied()) {
-                box.setBoxOne(card);
+    public ChaosCard playCard(ChaosCard card, Region box){
+        if(onHandDeck.size()==0){
+            System.err.println("Have 0 cards. Can not play card. Returned null.");
+            return null;
+        }else if(abilityPoints==0) {
+            System.err.println("Have 0 mana, can not play any cards. Returned null.");
+            return null;
+        }else{
+            if (card.getManaCost() <= abilityPoints) {
+                ChaosCard returnedCard;
+                if (!box.isBoxOneOccupied()) {
+                    box.setBoxOne(card);
+                } else if (!box.isBoxTwoOccupied()) {
+                    box.setBoxTwo(card);
+                } else {
+                    System.err.println("Both box are occupied. Returned null.");
+                    return null;
+                }
                 abilityPoints -= card.getManaCost();
-                return true;
-            } else if (!box.isBoxTwoOccupied()) {
-                box.setBoxTwo(card);
-                abilityPoints -= card.getManaCost();
-                return true;
+                returnedCard = card;
+                onHandDeck.remove(card);
+                return returnedCard;
             } else {
-                System.out.println("Nie można zagrać karty oba pola sa zajete!");
-                return false;
+                System.err.println("Have not enough mana. Returned Null");
+                return null;
             }
-        }else {
-            System.out.println("Za mało many");
-            return false;
         }
     }
 

@@ -14,6 +14,10 @@ public abstract class ChaosCard {
 
     protected boolean magicSymbol;
 
+    public String getName(){
+        return name;
+    }
+
     /**
      * method return us card of selected type.
      * we do not have to create many object every card of the same type are equals.
@@ -49,4 +53,6 @@ public abstract class ChaosCard {
     public int getManaCost(){
        return manaCost;
     }
+
+
 }

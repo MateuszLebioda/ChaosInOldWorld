@@ -32,12 +32,9 @@ public class Game {
      * @param regionId where we want to play the card
      */
     public void championPlayCard(Champion champ, MapOfGame map,int cardId,int regionId){
+        champ.choseCard(2);
+        champ.playCard(champ.getOnHandDeckCardById(cardId),map.getRegionById(regionId));
 
-        if(champ.onHandDeck.size()>0) {
-            if(champ.setCard(champ.onHandDeck.get(cardId), map.boxesOnBoard.get(regionId))) {
-                champ.onHandDeck.remove(0);
-            }
-        }
         map.checkAllBox();
     }
 }

@@ -13,7 +13,7 @@ public class MapOfGame {
         makeMap();
     }
 
-    public final List<Region> boxesOnBoard = new ArrayList<>();
+    private final List<Region> boxesOnBoard = new ArrayList<>();
 
     /**
      * method wll create map, add every Region to map.
@@ -33,6 +33,10 @@ public class MapOfGame {
     /**
      * method show us which of Regions have at least one card in boxes.
      */
+    public Region getRegionById(int id){
+        return boxesOnBoard.get(id);
+    }
+
     public void checkAllBox(){
         for(Region list:boxesOnBoard){
             list.checkSlots();

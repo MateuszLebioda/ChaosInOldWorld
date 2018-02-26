@@ -23,7 +23,8 @@ public class KhornChampion extends Champion {
      * method create a deck to proper champion.
      * @return deck
      */
-    private List<ChaosCard> getDeck(){
+    @Override
+    public List<ChaosCard> getDeck(){
       List<ChaosCard> deck = new ArrayList<ChaosCard>();
 
       addCard(4, BloodyCrazeKhornChaosCard.getCard(),deck);
@@ -37,6 +38,11 @@ public class KhornChampion extends Champion {
       return deck;
     }
 
+
+    /**
+     * need to add Uni tests!!!! when methods will be end.
+     * @param indexOfDangerPoints is a value of how many times u turn yours championsWheel.
+     */
     @Override
     void dangerPointsProfit(int indexOfDangerPoints) {
         switch (indexOfDangerPoints){
