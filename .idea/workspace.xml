@@ -2,21 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f6be399-f033-480c-955e-0a5738b99077" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/KozMeeN/figures/figurine.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/test/com/KozMeeN/champions/khornChampionTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/KozMeeN/figures/KhornFigures/BosKhornFigurine.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/KozMeeN/figures/KhornFigures/CultistKhornFigurine.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/KozMeeN/figures/KhornFigures/KhornFigurine.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/KozMeeN/figures/KhornFigures/WarriorKhornFigurine.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/test/com/KozMeeN/map/MapOfGameTest.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Arquillian_JUnit_Release.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Arquillian_JUnit_Release.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/ChaosInOldWorld.iml" afterPath="$PROJECT_DIR$/ChaosInOldWorld.iml" />
+      <change beforePath="$PROJECT_DIR$/out/production/ChaosInOldWorld/com/KozMeeN/Main.class" afterPath="$PROJECT_DIR$/out/production/ChaosInOldWorld/com/KozMeeN/Main.class" />
       <change beforePath="$PROJECT_DIR$/out/production/ChaosInOldWorld/com/KozMeeN/cards/ChaosCard/ChaosCard.class" afterPath="$PROJECT_DIR$/out/production/ChaosInOldWorld/com/KozMeeN/cards/ChaosCard/ChaosCard.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ChaosInOldWorld/com/KozMeeN/cards/ChaosCard/ChaosCardKhorn/BloodyCrazeKhornChaosCard.class" afterPath="$PROJECT_DIR$/out/production/ChaosInOldWorld/com/KozMeeN/cards/ChaosCard/ChaosCardKhorn/BloodyCrazeKhornChaosCard.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ChaosInOldWorld/com/KozMeeN/cards/ChaosCard/ChaosCardKhorn/CallOfTheGodKhornChaosCard.class" afterPath="$PROJECT_DIR$/out/production/ChaosInOldWorld/com/KozMeeN/cards/ChaosCard/ChaosCardKhorn/CallOfTheGodKhornChaosCard.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ChaosInOldWorld/com/KozMeeN/cards/ChaosCard/ChaosCardKhorn/MassacreAreaKhornChaosCard.class" afterPath="$PROJECT_DIR$/out/production/ChaosInOldWorld/com/KozMeeN/cards/ChaosCard/ChaosCardKhorn/MassacreAreaKhornChaosCard.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ChaosInOldWorld/com/KozMeeN/cards/ChaosCard/ChaosCardKhorn/RebithInTheBloodKhornChaosCard.class" afterPath="$PROJECT_DIR$/out/production/ChaosInOldWorld/com/KozMeeN/cards/ChaosCard/ChaosCardKhorn/RebithInTheBloodKhornChaosCard.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ChaosInOldWorld/com/KozMeeN/cards/ChaosCard/ChaosCardKhorn/RitualMorderKhornChaosCard.class" afterPath="$PROJECT_DIR$/out/production/ChaosInOldWorld/com/KozMeeN/cards/ChaosCard/ChaosCardKhorn/RitualMorderKhornChaosCard.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ChaosInOldWorld/com/KozMeeN/cards/ChaosCard/ChaosCardKhorn/ThroneOfSkullsKhornChaosCard.class" afterPath="$PROJECT_DIR$/out/production/ChaosInOldWorld/com/KozMeeN/cards/ChaosCard/ChaosCardKhorn/ThroneOfSkullsKhornChaosCard.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ChaosInOldWorld/com/KozMeeN/cards/ChaosCard/ChaosCardKhorn/WarCryKhornChaosCard.class" afterPath="$PROJECT_DIR$/out/production/ChaosInOldWorld/com/KozMeeN/cards/ChaosCard/ChaosCardKhorn/WarCryKhornChaosCard.class" />
       <change beforePath="$PROJECT_DIR$/out/production/ChaosInOldWorld/com/KozMeeN/champions/Champion.class" afterPath="$PROJECT_DIR$/out/production/ChaosInOldWorld/com/KozMeeN/champions/Champion.class" />
       <change beforePath="$PROJECT_DIR$/out/production/ChaosInOldWorld/com/KozMeeN/champions/KhornChampion.class" afterPath="$PROJECT_DIR$/out/production/ChaosInOldWorld/com/KozMeeN/champions/KhornChampion.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ChaosInOldWorld/com/KozMeeN/figures/figurine.class" afterPath="$PROJECT_DIR$/out/production/ChaosInOldWorld/com/KozMeeN/figures/figurine.class" />
       <change beforePath="$PROJECT_DIR$/out/production/ChaosInOldWorld/com/KozMeeN/game/Game.class" afterPath="$PROJECT_DIR$/out/production/ChaosInOldWorld/com/KozMeeN/game/Game.class" />
-      <change beforePath="$PROJECT_DIR$/out/test/ChaosInOldWorld/com/KozMeeN/champions/ChampionTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/ChaosInOldWorld/com/KozMeeN/map/BoxesOnBoard/Region.class" afterPath="$PROJECT_DIR$/out/production/ChaosInOldWorld/com/KozMeeN/map/BoxesOnBoard/Region.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ChaosInOldWorld/com/KozMeeN/map/MapOfGame.class" afterPath="$PROJECT_DIR$/out/production/ChaosInOldWorld/com/KozMeeN/map/MapOfGame.class" />
+      <change beforePath="$PROJECT_DIR$/out/test/ChaosInOldWorld/com/KozMeeN/champions/khornChampionTest.class" afterPath="$PROJECT_DIR$/out/test/ChaosInOldWorld/com/KozMeeN/champions/khornChampionTest.class" />
+      <change beforePath="$PROJECT_DIR$/src/com/KozMeeN/Main.java" afterPath="$PROJECT_DIR$/src/com/KozMeeN/Main.java" />
       <change beforePath="$PROJECT_DIR$/src/com/KozMeeN/cards/ChaosCard/ChaosCard.java" afterPath="$PROJECT_DIR$/src/com/KozMeeN/cards/ChaosCard/ChaosCard.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/KozMeeN/cards/ChaosCard/ChaosCardKhorn/BloodyCrazeKhornChaosCard.java" afterPath="$PROJECT_DIR$/src/com/KozMeeN/cards/ChaosCard/ChaosCardKhorn/BloodyCrazeKhornChaosCard.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/KozMeeN/cards/ChaosCard/ChaosCardKhorn/CallOfTheGodKhornChaosCard.java" afterPath="$PROJECT_DIR$/src/com/KozMeeN/cards/ChaosCard/ChaosCardKhorn/CallOfTheGodKhornChaosCard.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/KozMeeN/cards/ChaosCard/ChaosCardKhorn/MassacreAreaKhornChaosCard.java" afterPath="$PROJECT_DIR$/src/com/KozMeeN/cards/ChaosCard/ChaosCardKhorn/MassacreAreaKhornChaosCard.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/KozMeeN/cards/ChaosCard/ChaosCardKhorn/RebithInTheBloodKhornChaosCard.java" afterPath="$PROJECT_DIR$/src/com/KozMeeN/cards/ChaosCard/ChaosCardKhorn/RebithInTheBloodKhornChaosCard.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/KozMeeN/cards/ChaosCard/ChaosCardKhorn/RitualMorderKhornChaosCard.java" afterPath="$PROJECT_DIR$/src/com/KozMeeN/cards/ChaosCard/ChaosCardKhorn/RitualMorderKhornChaosCard.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/KozMeeN/cards/ChaosCard/ChaosCardKhorn/ThroneOfSkullsKhornChaosCard.java" afterPath="$PROJECT_DIR$/src/com/KozMeeN/cards/ChaosCard/ChaosCardKhorn/ThroneOfSkullsKhornChaosCard.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/KozMeeN/cards/ChaosCard/ChaosCardKhorn/WarCryKhornChaosCard.java" afterPath="$PROJECT_DIR$/src/com/KozMeeN/cards/ChaosCard/ChaosCardKhorn/WarCryKhornChaosCard.java" />
       <change beforePath="$PROJECT_DIR$/src/com/KozMeeN/champions/Champion.java" afterPath="$PROJECT_DIR$/src/com/KozMeeN/champions/Champion.java" />
       <change beforePath="$PROJECT_DIR$/src/com/KozMeeN/champions/KhornChampion.java" afterPath="$PROJECT_DIR$/src/com/KozMeeN/champions/KhornChampion.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/KozMeeN/figures/figurine.java" afterPath="$PROJECT_DIR$/src/com/KozMeeN/figures/Figurine.java" />
       <change beforePath="$PROJECT_DIR$/src/com/KozMeeN/game/Game.java" afterPath="$PROJECT_DIR$/src/com/KozMeeN/game/Game.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/KozMeeN/map/BoxesOnBoard/Region.java" afterPath="$PROJECT_DIR$/src/com/KozMeeN/map/BoxesOnBoard/Region.java" />
       <change beforePath="$PROJECT_DIR$/src/com/KozMeeN/map/MapOfGame.java" afterPath="$PROJECT_DIR$/src/com/KozMeeN/map/MapOfGame.java" />
-      <change beforePath="$PROJECT_DIR$/test/com/KozMeeN/champions/ChampionTest.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test/com/KozMeeN/champions/khornChampionTest.java" afterPath="$PROJECT_DIR$/test/com/KozMeeN/champions/khornChampionTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,154 +52,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/KozMeeN/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Champion.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/KozMeeN/champions/Champion.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1680">
-              <caret line="176" column="57" lean-forward="false" selection-start-line="176" selection-start-column="57" selection-end-line="176" selection-end-column="57" />
+            <state relative-caret-position="231">
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding>
-                <element signature="docComment;field#name#0;class#Champion#0" expanded="false" />
-                <element signature="docComment;field#maxAbilityPoints#0;class#Champion#0" expanded="false" />
-                <element signature="docComment;field#deck#0;class#Champion#0" expanded="false" />
-                <element signature="docComment;method#getDeck#0;class#Champion#0" expanded="false" />
-                <element signature="e#1519#1520#0" expanded="true" />
-                <element signature="e#1557#1558#0" expanded="true" />
-                <element signature="method#getOnHandDeckCardById#0;class#Champion#0" expanded="false" />
-                <element signature="docComment;method#removeCardFromHandDeck#0;class#Champion#0" expanded="false" />
-                <element signature="method#removeCardFromHandDeck#0;class#Champion#0" expanded="false" />
-                <element signature="docComment;method#choseCard#0;class#Champion#0" expanded="false" />
-                <element signature="method#choseCard#0;class#Champion#0" expanded="false" />
-                <element signature="docComment;method#canPlay#0;class#Champion#0" expanded="false" />
-                <element signature="method#canPlay#0;class#Champion#0" expanded="false" />
-                <element signature="docComment;method#dangerPointsProfit#0;class#Champion#0" expanded="false" />
-                <element signature="docComment;method#increaseDangerPoints#0;class#Champion#0" expanded="false" />
-                <element signature="method#increaseDangerPoints#0;class#Champion#0" expanded="false" />
-                <element signature="docComment;method#increaseWinPoints#0;class#Champion#0" expanded="false" />
-                <element signature="e#4624#4625#0" expanded="true" />
-                <element signature="e#4660#4661#0" expanded="true" />
-                <element signature="docComment;method#reviewCardsOnHand#0;class#Champion#0" expanded="false" />
-                <element signature="method#reviewCardsOnHand#0;class#Champion#0" expanded="false" />
-                <element signature="docComment;method#playCard#0;class#Champion#0" expanded="false" />
-                <element signature="method#playCard#0;class#Champion#0" expanded="false" />
-                <element signature="docComment;method#pass#0;class#Champion#0" expanded="false" />
-                <element signature="e#6721#6722#0" expanded="true" />
-                <element signature="e#6754#6755#0" expanded="true" />
-                <element signature="docComment;method#addCard#0;class#Champion#0" expanded="false" />
-                <element signature="docComment;method#turnWheel#0;class#Champion#0" expanded="false" />
+                <element signature="e#117#118#0" expanded="true" />
+                <element signature="e#155#156#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Region.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/KozMeeN/map/BoxesOnBoard/Region.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-471">
-              <caret line="30" column="40" lean-forward="true" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
-              <folding>
-                <element signature="method#isBoxOneOccupied#0;class#Region#0" expanded="false" />
-                <element signature="method#isBoxTwoOccupied#0;class#Region#0" expanded="false" />
-                <element signature="method#checkSlots#0;class#Region#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BadLandsRegion.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/KozMeeN/map/BoxesOnBoard/BadLandsRegion.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="khornChampionTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/com/KozMeeN/champions/khornChampionTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1050">
-              <caret line="116" column="9" lean-forward="true" selection-start-line="116" selection-start-column="9" selection-end-line="116" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="docComment;method#checkNameCreateChampionTest#0;class#khornChampionTest#0" expanded="false" />
-                <element signature="docComment;method#correctNumberOfIdOfGetOnHandDeckCardByIdTest#0;class#khornChampionTest#0" expanded="false" />
-                <element signature="method#correctNumberOfIdOfGetOnHandDeckCardByIdTest#0;class#khornChampionTest#0" expanded="false" />
-                <element signature="method#toManyNumberOfIdOfGetOnHandDeckCardByIdTest#0;class#khornChampionTest#0" expanded="false" />
-                <element signature="method#negativeNumberOfIdOfGetOnHandDeckCardByIdTest#0;class#khornChampionTest#0" expanded="false" />
-                <element signature="docComment;method#correctNumberOfIdOfRemoveCardFromHandDeckTest#0;class#khornChampionTest#0" expanded="false" />
-                <element signature="method#correctNumberOfIdOfRemoveCardFromHandDeckTest#0;class#khornChampionTest#0" expanded="false" />
-                <element signature="method#toManyNumberOfIdOfRemoveCardFromHandDeckTest#0;class#khornChampionTest#0" expanded="false" />
-                <element signature="method#negativeNumberOfIdOfRemoveCardFromHandDeckTest#0;class#khornChampionTest#0" expanded="false" />
-                <element signature="method#zeroNumberOfIdOfRemoveCardFromHandDeckTest#0;class#khornChampionTest#0" expanded="false" />
-                <element signature="docComment;method#zeroChoseCardTest#0;class#khornChampionTest#0" expanded="false" />
-                <element signature="method#zeroChoseCardTest#0;class#khornChampionTest#0" expanded="false" />
-                <element signature="method#correctNumberOfChoseCardTest#0;class#khornChampionTest#0" expanded="false" />
-                <element signature="method#ToManyChosenCardTest#0;class#khornChampionTest#0" expanded="false" />
-                <element signature="method#negativeValueOfChoseCardTest#0;class#khornChampionTest#0" expanded="false" />
-                <element signature="method#positiveValueOfManaPointsCanPlayTest#0;class#khornChampionTest#0" expanded="false" />
-                <element signature="method#negativeValueOfManaPointsCanPlayTest#0;class#khornChampionTest#0" expanded="false" />
-                <element signature="method#zeroValueOfManaPointsCanPlayTest#0;class#khornChampionTest#0" expanded="false" />
-                <element signature="method#correctIncreaseDangerPointsTest#0;class#khornChampionTest#0" expanded="false" />
-                <element signature="method#outOfRangeIncreaseDangerPointsTest#0;class#khornChampionTest#0" expanded="false" />
-                <element signature="method#manaPlayCardTest#0;class#khornChampionTest#0" expanded="false" />
-                <element signature="method#occupiedRegionsPlayCardTest#0;class#khornChampionTest#0" expanded="false" />
-                <element signature="method#enoughCardsOnHand#0;class#khornChampionTest#0" expanded="false" />
-                <element signature="docComment;method#createDeckTest#0;class#khornChampionTest#0" expanded="false" />
-                <element signature="method#createDeckTest#0;class#khornChampionTest#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="KhornChampion.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/KozMeeN/champions/KhornChampion.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="56" column="16" lean-forward="false" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MapOfGame.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/KozMeeN/map/MapOfGame.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="32" column="7" lean-forward="true" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
-              <folding>
-                <element signature="method#makeMap#0;class#MapOfGame#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Game.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/KozMeeN/game/Game.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="35" column="59" lean-forward="false" selection-start-line="35" selection-start-column="59" selection-end-line="35" selection-end-column="59" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ChaosCardKhorn.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/KozMeeN/cards/ChaosCard/ChaosCardKhorn/ChaosCardKhorn.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="17" column="36" lean-forward="false" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="51" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -185,10 +70,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Arquillian JUnit Test Class" />
         <option value="JUnit5 Test Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -211,7 +96,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/KozMeeN/player/Player.java" />
         <option value="$PROJECT_DIR$/src/com/KozMeeN/cards/ChaosCardKhorn/MasacreArea.java" />
         <option value="$PROJECT_DIR$/src/com/KozMeeN/cards/ChaosCardKhorn/MasacreAreaKhornChaosCard.java" />
         <option value="$PROJECT_DIR$/src/com/KozMeeN/cards/ChaosCardKhorn/RebithInTheBloodKhornChaosCard.java" />
@@ -238,19 +122,31 @@
         <option value="$PROJECT_DIR$/src/com/KozMeeN/map/TrollLandBox.java" />
         <option value="$PROJECT_DIR$/src/com/KozMeeN/map/Map.java" />
         <option value="$PROJECT_DIR$/src/com/KozMeeN/map/BoxOnBoard.java" />
-        <option value="$PROJECT_DIR$/src/com/KozMeeN/Main.java" />
         <option value="$PROJECT_DIR$/src/com/KozMeeN/map/BoxesOnBoard/BoxOnBoard.java" />
-        <option value="$PROJECT_DIR$/src/com/KozMeeN/map/BoxesOnBoard/Region.java" />
-        <option value="$PROJECT_DIR$/src/com/KozMeeN/figures/figurine.java" />
         <option value="$PROJECT_DIR$/src/com/KozMeeN/cards/ChaosCard/ChaosCardKhorn/ChaosCardKhorn.java" />
-        <option value="$PROJECT_DIR$/src/com/KozMeeN/cards/ChaosCard/ChaosCard.java" />
         <option value="$PROJECT_DIR$/test/com/KozMeeN/champions/ChampionTest.java" />
         <option value="$PROJECT_DIR$/test/com/KozMeeN/champions/championTest.java" />
+        <option value="$PROJECT_DIR$/test/com/KozMeeN/map/MapOfGameTest.java" />
+        <option value="$PROJECT_DIR$/src/com/KozMeeN/figures/KhornFigures.java" />
+        <option value="$PROJECT_DIR$/src/com/KozMeeN/cards/ChaosCard/ChaosCardKhorn/CallOfTheGodKhornChaosCard.java" />
+        <option value="$PROJECT_DIR$/src/com/KozMeeN/figures/KhornFigures/CultistKhorn.java" />
+        <option value="$PROJECT_DIR$/src/com/KozMeeN/figures/figurine.java" />
+        <option value="$PROJECT_DIR$/src/com/KozMeeN/figures/KhornFigures/CultistKhornFigures.java" />
+        <option value="$PROJECT_DIR$/src/com/KozMeeN/figures/KhornFigures/WariorKhornFigures.java" />
+        <option value="$PROJECT_DIR$/src/com/KozMeeN/figures/KhornFigures/WarriorKhornFigures.java" />
+        <option value="$PROJECT_DIR$/src/com/KozMeeN/figures/KhornFigures/BosKhornFigures.java" />
+        <option value="$PROJECT_DIR$/src/com/KozMeeN/figures/KhornFigures/KhornFigures.java" />
         <option value="$PROJECT_DIR$/src/com/KozMeeN/champions/KhornChampion.java" />
+        <option value="$PROJECT_DIR$/src/com/KozMeeN/figures/Figurine.java" />
+        <option value="$PROJECT_DIR$/src/com/KozMeeN/cards/ChaosCard/ChaosCard.java" />
+        <option value="$PROJECT_DIR$/test/com/KozMeeN/champions/khornChampionTest.java" />
         <option value="$PROJECT_DIR$/src/com/KozMeeN/map/MapOfGame.java" />
+        <option value="$PROJECT_DIR$/src/com/KozMeeN/map/BoxesOnBoard/Region.java" />
         <option value="$PROJECT_DIR$/src/com/KozMeeN/game/Game.java" />
         <option value="$PROJECT_DIR$/src/com/KozMeeN/champions/Champion.java" />
-        <option value="$PROJECT_DIR$/test/com/KozMeeN/champions/khornChampionTest.java" />
+        <option value="$PROJECT_DIR$/src/com/KozMeeN/StartGui.form" />
+        <option value="$PROJECT_DIR$/src/com/KozMeeN/StartGui.java" />
+        <option value="$PROJECT_DIR$/src/com/KozMeeN/Main.java" />
       </list>
     </option>
   </component>
@@ -296,9 +192,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -306,65 +199,13 @@
               <item name="ChaosInOldWorld" type="b2602c69:ProjectViewProjectNode" />
               <item name="ChaosInOldWorld" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="ChaosInOldWorld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ChaosInOldWorld" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ChaosInOldWorld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ChaosInOldWorld" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="KozMeeN" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ChaosInOldWorld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ChaosInOldWorld" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="KozMeeN" type="462c0819:PsiDirectoryNode" />
-              <item name="champions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ChaosInOldWorld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ChaosInOldWorld" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="KozMeeN" type="462c0819:PsiDirectoryNode" />
-              <item name="figures" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ChaosInOldWorld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ChaosInOldWorld" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="KozMeeN" type="462c0819:PsiDirectoryNode" />
-              <item name="map" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ChaosInOldWorld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ChaosInOldWorld" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="KozMeeN" type="462c0819:PsiDirectoryNode" />
-              <item name="map" type="462c0819:PsiDirectoryNode" />
-              <item name="BoxesOnBoard" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ChaosInOldWorld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ChaosInOldWorld" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ChaosInOldWorld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ChaosInOldWorld" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="champions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ChaosInOldWorld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -384,6 +225,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.KozMeeN.map" />
       <recent name="com.KozMeeN.champions" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -402,7 +244,51 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.khornChampionTest">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.KozMeeN.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.KozMeeN.Main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="ChaosInOldWorld" />
+      <envs />
+    </configuration>
+    <configuration name="MapOfGameTest.correctnessMakeMap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.KozMeeN.map.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="ChaosInOldWorld" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.KozMeeN.map" />
+      <option name="MAIN_CLASS_NAME" value="com.KozMeeN.map.MapOfGameTest" />
+      <option name="METHOD_NAME" value="correctnessMakeMap" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
     <configuration name="khornChampionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -428,81 +314,6 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="khornChampionTest.enoughCardsOnHand" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.KozMeeN.champions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="ChaosInOldWorld" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.KozMeeN.champions" />
-      <option name="MAIN_CLASS_NAME" value="com.KozMeeN.champions.khornChampionTest" />
-      <option name="METHOD_NAME" value="enoughCardsOnHand" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="khornChampionTest.enoughManaPlayCardTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.KozMeeN.champions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="ChaosInOldWorld" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.KozMeeN.champions" />
-      <option name="MAIN_CLASS_NAME" value="com.KozMeeN.champions.khornChampionTest" />
-      <option name="METHOD_NAME" value="enoughManaPlayCardTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="khornChampionTest.manaPlayCardTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.KozMeeN.champions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="ChaosInOldWorld" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.KozMeeN.champions" />
-      <option name="MAIN_CLASS_NAME" value="com.KozMeeN.champions.khornChampionTest" />
-      <option name="METHOD_NAME" value="manaPlayCardTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
     <configuration name="khornChampionTest.occupiedRegionsPlayCardTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -516,6 +327,31 @@
       <option name="PACKAGE_NAME" value="com.KozMeeN.champions" />
       <option name="MAIN_CLASS_NAME" value="com.KozMeeN.champions.khornChampionTest" />
       <option name="METHOD_NAME" value="occupiedRegionsPlayCardTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="khornChampionTest.outOfRangeIncreaseDangerPointsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.KozMeeN.champions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="ChaosInOldWorld" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.KozMeeN.champions" />
+      <option name="MAIN_CLASS_NAME" value="com.KozMeeN.champions.khornChampionTest" />
+      <option name="METHOD_NAME" value="outOfRangeIncreaseDangerPointsTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -556,19 +392,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.khornChampionTest.enoughManaPlayCardTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.khornChampionTest.manaPlayCardTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.khornChampionTest.occupiedRegionsPlayCardTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.khornChampionTest.enoughCardsOnHand" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.khornChampionTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.khornChampionTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.khornChampionTest.outOfRangeIncreaseDangerPointsTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.MapOfGameTest.correctnessMakeMap" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Main" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.khornChampionTest.occupiedRegionsPlayCardTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.khornChampionTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.khornChampionTest.manaPlayCardTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.khornChampionTest.enoughCardsOnHand" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.khornChampionTest.occupiedRegionsPlayCardTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.khornChampionTest.enoughManaPlayCardTest" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.khornChampionTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.khornChampionTest.occupiedRegionsPlayCardTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.MapOfGameTest.correctnessMakeMap" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.khornChampionTest.outOfRangeIncreaseDangerPointsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -602,44 +438,55 @@
       <workItem from="1519513535435" duration="12000" />
       <workItem from="1519560303369" duration="7531000" />
       <workItem from="1519640685458" duration="1602000" />
-      <workItem from="1519644620589" duration="3953000" />
+      <workItem from="1519644620589" duration="4180000" />
+      <workItem from="1519658745162" duration="2603000" />
+      <workItem from="1519661376612" duration="3864000" />
+      <workItem from="1519665590391" duration="1666000" />
+      <workItem from="1519680320299" duration="1344000" />
+      <workItem from="1519742538225" duration="3942000" />
+      <workItem from="1519757656759" duration="84000" />
+      <workItem from="1519894026762" duration="469000" />
+      <workItem from="1519897440384" duration="568000" />
+      <workItem from="1519999456064" duration="71000" />
+      <workItem from="1520256992969" duration="100000" />
+      <workItem from="1520272767398" duration="122000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="khornChampionTest - 2018.02.26 at 13h 33m 54s.xml">
+    <history-entry file="khornChampionTest - 2018.02.26 at 18h 26m 36s.xml">
       <configuration name="khornChampionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="khornChampionTest - 2018.02.26 at 13h 33m 56s.xml">
+    <history-entry file="khornChampionTest - 2018.02.27 at 18h 28m 15s.xml">
       <configuration name="khornChampionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="khornChampionTest - 2018.02.26 at 13h 33m 58s.xml">
+    <history-entry file="khornChampionTest - 2018.02.27 at 18h 32m 40s.xml">
       <configuration name="khornChampionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="khornChampionTest - 2018.02.26 at 13h 34m 00s.xml">
+    <history-entry file="khornChampionTest - 2018.02.27 at 18h 49m 56s.xml">
       <configuration name="khornChampionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="khornChampionTest - 2018.02.26 at 13h 34m 02s.xml">
+    <history-entry file="khornChampionTest - 2018.02.27 at 18h 51m 04s.xml">
       <configuration name="khornChampionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="khornChampionTest - 2018.02.26 at 13h 34m 03s.xml">
-      <configuration name="khornChampionTest" configurationId="JUnit" />
+    <history-entry file="khornChampionTest_occupiedRegionsPlayCardTest - 2018.02.26 at 18h 27m 29s.xml">
+      <configuration name="khornChampionTest.occupiedRegionsPlayCardTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="khornChampionTest - 2018.02.26 at 13h 34m 05s.xml">
-      <configuration name="khornChampionTest" configurationId="JUnit" />
+    <history-entry file="khornChampionTest_outOfRangeIncreaseDangerPointsTest - 2018.02.26 at 16h 42m 20s.xml">
+      <configuration name="khornChampionTest.outOfRangeIncreaseDangerPointsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="khornChampionTest - 2018.02.26 at 13h 34m 07s.xml">
-      <configuration name="khornChampionTest" configurationId="JUnit" />
+    <history-entry file="khornChampionTest_removeCardFromEmptyDeckRemoveCardFromHandDeckTest - 2018.02.26 at 16h 36m 30s.xml">
+      <configuration name="khornChampionTest.removeCardFromEmptyDeckRemoveCardFromHandDeckTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="khornChampionTest - 2018.02.26 at 13h 34m 09s.xml">
-      <configuration name="khornChampionTest" configurationId="JUnit" />
+    <history-entry file="khornChampionTest_removeCardFromEmptyDeckRemoveCardFromHandDeckTest - 2018.02.26 at 16h 39m 54s.xml">
+      <configuration name="khornChampionTest.removeCardFromEmptyDeckRemoveCardFromHandDeckTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="khornChampionTest - 2018.02.26 at 13h 34m 11s.xml">
-      <configuration name="khornChampionTest" configurationId="JUnit" />
+    <history-entry file="khornChampionTest_zeroNumberOfIdOfRemoveCardFromHandDeckTest - 2018.02.26 at 16h 40m 01s.xml">
+      <configuration name="khornChampionTest.zeroNumberOfIdOfRemoveCardFromHandDeckTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39378000" />
+    <option name="totallyTimeSpent" value="54438000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -656,15 +503,14 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23397075" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3991276" sideWeight="0.503125" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7401575" sideWeight="0.49785176" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7649044" sideWeight="0.49785176" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295838" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24758324" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2905478" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -676,10 +522,11 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29808775" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295838" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295838" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -699,15 +546,15 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3991276" sideWeight="0.496875" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293348" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23397075" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4791901" sideWeight="0.49785176" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5635546" sideWeight="0.49785176" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28410313" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26262084" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295838" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -722,65 +569,27 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="23" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test/com/KozMeeN/champions/khornChampionTest.java</url>
+          <line>82</line>
+          <properties />
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="34" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/KozMeeN/cards/ChaosCard/ChaosCardKhorn/ChaosCardKhorn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="19" column="145" lean-forward="false" selection-start-line="19" selection-start-column="145" selection-end-line="19" selection-end-column="145" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/KozMeeN/game/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/KozMeeN/champions/KhornChampion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="11" column="52" lean-forward="false" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/KozMeeN/cards/ChaosCard/ChaosCard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="8" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/KozMeeN/cards/ChaosCard/ChaosCardKhorn/MassacreAreaKhornChaosCard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="14" column="46" lean-forward="false" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/KozMeeN/player/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/KozMeeN/cards/ChaosCard/ChaosCardKhorn/BloodyCrazeKhornChaosCard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="19" column="20" lean-forward="false" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/KozMeeN/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
           <caret line="8" column="35" lean-forward="false" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-          <folding />
+          <folding>
+            <element signature="e#117#118#0" expanded="true" />
+            <element signature="e#155#156#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -837,7 +646,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="5" column="10" lean-forward="false" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-          <folding />
+          <folding>
+            <element signature="e#117#118#0" expanded="true" />
+            <element signature="e#155#156#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -877,20 +689,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/KozMeeN/cards/ChaosCardKhorn/MasacreArea.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/KozMeeN/player/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/KozMeeN/cards/ChaosCard/ChaosCardKhorn/CallOfTheGodKhornChaosCard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/KozMeeN/cards/ChaosCard/ChaosCardKhorn/WarCryKhornChaosCard.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
@@ -933,13 +731,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/KozMeeN/map/BoxesOnBoard/NorscaRegion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/KozMeeN/map/BoxesOnBoard/KislevRegion.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -968,13 +759,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ChaosInOldWorld.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/KozMeeN/map/BoxesOnBoard/TrollLandRegion.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
@@ -989,47 +773,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/KozMeeN/figures/figurine.java">
+    <entry file="file://$PROJECT_DIR$/test/com/KozMeeN/champions/championTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/KozMeeN/map/BoxesOnBoard/BadLandsRegion.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
-          <caret line="2" column="15" lean-forward="false" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/KozMeeN/player/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/KozMeeN/map/BoxesOnBoard/NorscaRegion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ChaosInOldWorld.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/KozMeeN/map/MapOfGameTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="11" lean-forward="true" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/KozMeeN/cards/ChaosCard/ChaosCardKhorn/BloodyCrazeKhornChaosCard.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/KozMeeN/cards/ChaosCard/ChaosCard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-          <folding>
-            <element signature="e#377#378#0" expanded="true" />
-            <element signature="e#404#405#0" expanded="true" />
-            <element signature="method#write#0;class#ChaosCard#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/KozMeeN/champions/championTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/KozMeeN/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/KozMeeN/game/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="35" column="59" lean-forward="false" selection-start-line="35" selection-start-column="59" selection-end-line="35" selection-end-column="59" />
-          <folding />
+        <state relative-caret-position="399">
+          <caret line="21" column="19" lean-forward="false" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -1037,34 +820,93 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="17" column="36" lean-forward="false" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="51" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/KozMeeN/map/MapOfGame.java">
+    <entry file="file://$PROJECT_DIR$/src/com/KozMeeN/cards/ChaosCard/ChaosCardKhorn/CallOfTheGodKhornChaosCard.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="32" column="7" lean-forward="true" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
-          <folding>
-            <element signature="method#makeMap#0;class#MapOfGame#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="84">
+          <caret line="4" column="6" lean-forward="false" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/KozMeeN/figures/KhornFigures/CultistKhornFigurine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="4" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="18" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/KozMeeN/figures/KhornFigures/WarriorKhornFigurine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="4" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="18" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/KozMeeN/figures/KhornFigures/KhornFigurine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="139" lean-forward="false" selection-start-line="14" selection-start-column="139" selection-end-line="14" selection-end-column="139" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/KozMeeN/figures/KhornFigures/BosKhornFigurine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="30" lean-forward="false" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/KozMeeN/figures/Figurine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="651">
+          <caret line="36" column="32" lean-forward="false" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/KozMeeN/cards/ChaosCard/ChaosCard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="12" column="29" lean-forward="false" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/KozMeeN/champions/KhornChampion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="56" column="16" lean-forward="false" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="16" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="30" lean-forward="true" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/KozMeeN/map/MapOfGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="40" column="32" lean-forward="false" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/KozMeeN/map/BoxesOnBoard/Region.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1890">
+          <caret line="113" column="7" lean-forward="true" selection-start-line="113" selection-start-column="7" selection-end-line="113" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/KozMeeN/champions/Champion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="222" column="7" lean-forward="false" selection-start-line="222" selection-start-column="7" selection-end-line="222" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/com/KozMeeN/champions/khornChampionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1050">
-          <caret line="116" column="9" lean-forward="true" selection-start-line="116" selection-start-column="9" selection-end-line="116" selection-end-column="9" />
+        <state relative-caret-position="189">
+          <caret line="16" column="11" lean-forward="false" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#startUp#0;class#khornChampionTest#0" expanded="false" />
             <element signature="docComment;method#checkNameCreateChampionTest#0;class#khornChampionTest#0" expanded="false" />
             <element signature="docComment;method#correctNumberOfIdOfGetOnHandDeckCardByIdTest#0;class#khornChampionTest#0" expanded="false" />
             <element signature="method#correctNumberOfIdOfGetOnHandDeckCardByIdTest#0;class#khornChampionTest#0" expanded="false" />
@@ -1094,59 +936,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/KozMeeN/map/BoxesOnBoard/Region.java">
+    <entry file="file://$PROJECT_DIR$/src/com/KozMeeN/game/Game.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-471">
-          <caret line="30" column="40" lean-forward="true" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
-          <folding>
-            <element signature="method#isBoxOneOccupied#0;class#Region#0" expanded="false" />
-            <element signature="method#isBoxTwoOccupied#0;class#Region#0" expanded="false" />
-            <element signature="method#checkSlots#0;class#Region#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="315">
+          <caret line="23" column="5" lean-forward="false" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/KozMeeN/map/BoxesOnBoard/BadLandsRegion.java">
+    <entry file="file://$PROJECT_DIR$/src/com/KozMeeN/StartGui.form" />
+    <entry file="file://$PROJECT_DIR$/src/com/KozMeeN/StartGui.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/KozMeeN/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/KozMeeN/champions/Champion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1680">
-          <caret line="176" column="57" lean-forward="false" selection-start-line="176" selection-start-column="57" selection-end-line="176" selection-end-column="57" />
+        <state relative-caret-position="231">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
-            <element signature="docComment;field#name#0;class#Champion#0" expanded="false" />
-            <element signature="docComment;field#maxAbilityPoints#0;class#Champion#0" expanded="false" />
-            <element signature="docComment;field#deck#0;class#Champion#0" expanded="false" />
-            <element signature="docComment;method#getDeck#0;class#Champion#0" expanded="false" />
-            <element signature="e#1519#1520#0" expanded="true" />
-            <element signature="e#1557#1558#0" expanded="true" />
-            <element signature="method#getOnHandDeckCardById#0;class#Champion#0" expanded="false" />
-            <element signature="docComment;method#removeCardFromHandDeck#0;class#Champion#0" expanded="false" />
-            <element signature="method#removeCardFromHandDeck#0;class#Champion#0" expanded="false" />
-            <element signature="docComment;method#choseCard#0;class#Champion#0" expanded="false" />
-            <element signature="method#choseCard#0;class#Champion#0" expanded="false" />
-            <element signature="docComment;method#canPlay#0;class#Champion#0" expanded="false" />
-            <element signature="method#canPlay#0;class#Champion#0" expanded="false" />
-            <element signature="docComment;method#dangerPointsProfit#0;class#Champion#0" expanded="false" />
-            <element signature="docComment;method#increaseDangerPoints#0;class#Champion#0" expanded="false" />
-            <element signature="method#increaseDangerPoints#0;class#Champion#0" expanded="false" />
-            <element signature="docComment;method#increaseWinPoints#0;class#Champion#0" expanded="false" />
-            <element signature="e#4624#4625#0" expanded="true" />
-            <element signature="e#4660#4661#0" expanded="true" />
-            <element signature="docComment;method#reviewCardsOnHand#0;class#Champion#0" expanded="false" />
-            <element signature="method#reviewCardsOnHand#0;class#Champion#0" expanded="false" />
-            <element signature="docComment;method#playCard#0;class#Champion#0" expanded="false" />
-            <element signature="method#playCard#0;class#Champion#0" expanded="false" />
-            <element signature="docComment;method#pass#0;class#Champion#0" expanded="false" />
-            <element signature="e#6721#6722#0" expanded="true" />
-            <element signature="e#6754#6755#0" expanded="true" />
-            <element signature="docComment;method#addCard#0;class#Champion#0" expanded="false" />
-            <element signature="docComment;method#turnWheel#0;class#Champion#0" expanded="false" />
+            <element signature="e#117#118#0" expanded="true" />
+            <element signature="e#155#156#0" expanded="true" />
           </folding>
         </state>
       </provider>

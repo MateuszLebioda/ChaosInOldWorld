@@ -2,7 +2,7 @@ package com.KozMeeN.cards.ChaosCard;
 
 public abstract class ChaosCard {
 
-    protected int manaCost;
+    protected int abilityPowerCost;
     protected boolean nowUse=false;
     protected boolean fightUse=false;
     protected boolean dominationUse=false;
@@ -38,7 +38,7 @@ public abstract class ChaosCard {
     public void write(){
         System.out.println("Name:" + name);
         System.out.println("Descriptions: " + descriptions);
-        System.out.println("Mana cost: " + manaCost);
+        System.out.println("Mana cost: " + abilityPowerCost);
         if(magicSymbol) System.out.println("Magic symbol");
 
         /*System.out.println("Uses: ");
@@ -48,11 +48,14 @@ public abstract class ChaosCard {
     }
 
     /**
-     * @return manaCost of the card.
+     * @return abilityPowerCost of the card.
      */
-    public int getManaCost(){
-       return manaCost;
+    public int getAbilityPowerCost(){
+       return abilityPowerCost;
     }
 
+    public String getChampion(){
+        return champion;
+    }
 
 }

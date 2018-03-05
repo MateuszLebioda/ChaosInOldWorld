@@ -1,6 +1,10 @@
 package com.KozMeeN.map.BoxesOnBoard;
 
 import com.KozMeeN.cards.ChaosCard.ChaosCard;
+import com.KozMeeN.figures.Figurine;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public abstract class Region {
 
@@ -13,15 +17,15 @@ public abstract class Region {
         boxTwo=null;
     }
 
-    static String BAD_LANDS_NAME = "Złe ziemie";
-    static String BORDER_PRINCES_NAME = "Księstwa graniczne";
-    static String TILEA_NAME = "Tilea";
-    static String ESTALIA_NAME = "Estalia";
-    static String BRETONIA_NAME = "Bretonia";
-    static String EMPIRE_NAME = "Imperium";
-    static String KISLEV_NAME = "Kislev";
-    static String TROLL_LAND_NAME = "Kraina troli";
-    static String NORSKA_NAME = "Norska";
+    public static String BAD_LANDS_NAME = "Złe ziemie";
+    public static String BORDER_PRINCES_NAME = "Księstwa graniczne";
+    public static String TILEA_NAME = "Tilea";
+    public static String ESTALIA_NAME = "Estalia";
+    public static String BRETONIA_NAME = "Bretonia";
+    public static String EMPIRE_NAME = "Imperium";
+    public static String KISLEV_NAME = "Kislev";
+    public static String TROLL_LAND_NAME = "Kraina troli";
+    public static String NORSKA_NAME = "Norska";
 
     /**
      * we create the map static, I means the map will be whenever the same, the location will be on 1st plays, if we create map 1st time
@@ -41,10 +45,12 @@ public abstract class Region {
     ChaosCard boxOne;
     ChaosCard boxTwo;
 
+    List<Figurine> figurineList = new ArrayList<>();
+
     boolean destroyed;
     boolean populous;
 
-    public String name;
+    protected String name;
     int conquestValue;
     int resistanceValue;
     int modifierConquestValue;
@@ -55,6 +61,10 @@ public abstract class Region {
      * @return true if boxOne is occupied
      * false if is not.
      */
+
+    public String getName(){
+        return name;
+    }
     public boolean isBoxOneOccupied(){
         if(boxOne == null) return false;
         return true;
@@ -76,6 +86,16 @@ public abstract class Region {
         boxTwo = card;
     }
 
+    public ChaosCard clearBoxOneCard(){
+        ChaosCard returnedChaosCard = boxOne;
+        boxOne = null;
+        return returnedChaosCard;
+    }
+    public ChaosCard clearTwoOneCard(){
+        ChaosCard returnedChaosCard = boxTwo;
+        boxTwo = null;
+        return returnedChaosCard;
+    }
 
     /**
     * We can check how many slots are occupied in this region.
@@ -103,4 +123,7 @@ public abstract class Region {
         System.out.println("Name:" + name);
     }
 
+    public void addToFigurineList(Figurine figurine) {
+        figurineList.add(figurine);
+    }
 }

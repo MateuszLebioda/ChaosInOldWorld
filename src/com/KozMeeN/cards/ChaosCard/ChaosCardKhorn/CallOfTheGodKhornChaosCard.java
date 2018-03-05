@@ -8,7 +8,7 @@ public class CallOfTheGodKhornChaosCard extends ChaosCardKhorn {
         name = ChaosCardKhorn.CALL_OF_THE_GOD;
         descriptions = ChaosCardKhorn.CALL_OF_THE_GOD_DESCRIPTIONS;
         nowUse = true;
-        manaCost = 2;
+        abilityPowerCost = 2;
     }
 
     public static ChaosCard getCard() {

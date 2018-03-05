@@ -8,7 +8,7 @@ public class WarCryKhornChaosCard extends ChaosCardKhorn {
         name = ChaosCardKhorn.WAR_CRY;
         descriptions = ChaosCardKhorn.WAR_CRY_DESCRIPTIONS;
         nowUse = true;
-        manaCost = 1;
+        abilityPowerCost = 1;
     }
 
     public static ChaosCard getCard() {

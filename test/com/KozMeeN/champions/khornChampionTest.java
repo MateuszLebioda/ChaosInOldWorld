@@ -49,6 +49,16 @@ public class khornChampionTest {
         assertEquals(null,khorn.getOnHandDeckCardById(-1));
     }
 
+    @Test
+    public void emptyDeckGetOnHandDeckCardByIdTest(){
+        assertEquals(null,khorn.getOnHandDeckCardById(0));
+    }
+
+    @Test
+    public void emptyDeckToManyNumberGetOnHandDeckCardByIdTest(){
+        assertEquals(null,khorn.getOnHandDeckCardById(30));
+    }
+
     /**
      * Tests for removeCardFromDeck
      */
@@ -82,6 +92,11 @@ public class khornChampionTest {
         assertEquals(0,khorn.getOnHandDeck().size());
         khorn.removeCardFromHandDeck(0);
         assertEquals(0,khorn.getOnHandDeck().size());
+    }
+
+    @Test
+    public void removeCardFromEmptyDeckRemoveCardFromHandDeckTest(){
+        khorn.removeCardFromHandDeck(0);
     }
 
     /**
@@ -175,26 +190,26 @@ public class khornChampionTest {
     public void manaPlayCardTest(){
         khorn.abilityPoints = 0;
         khorn.choseCard(1);
-        assertEquals(null,khorn.playCard(khorn.getOnHandDeckCardById(0),map.getRegionById(0)));
+        assertEquals(false,khorn.playCard(khorn.getOnHandDeckCardById(0),map.getRegionById(0)));
         khorn.abilityPoints = 10;
-        assertEquals(khorn.getOnHandDeckCardById(0),khorn.playCard(khorn.getOnHandDeckCardById(0),map.getRegionById(0)));
+        assertEquals(true,khorn.playCard(khorn.getOnHandDeckCardById(0),map.getRegionById(0)));
     }
 
     @Test
     public void occupiedRegionsPlayCardTest(){
         khorn.abilityPoints = 10;
         khorn.choseCard(3);
-        assertEquals(khorn.getOnHandDeckCardById(0),khorn.playCard(khorn.getOnHandDeckCardById(0),map.getRegionById(0)));
-        assertEquals(khorn.getOnHandDeckCardById(0),khorn.playCard(khorn.getOnHandDeckCardById(0),map.getRegionById(0)));
-        assertEquals(null,khorn.playCard(khorn.getOnHandDeckCardById(0),map.getRegionById(0)));
+        assertEquals(true,khorn.playCard(khorn.getOnHandDeckCardById(0),map.getRegionById(0)));
+        assertEquals(true,khorn.playCard(khorn.getOnHandDeckCardById(0),map.getRegionById(0)));
+        assertEquals(false,khorn.playCard(khorn.getOnHandDeckCardById(0),map.getRegionById(0)));
     }
 
     @Test
     public void enoughCardsOnHand(){
         khorn.abilityPoints = 10;
         khorn.choseCard(1);
-        assertEquals(khorn.getOnHandDeckCardById(0),khorn.playCard(khorn.getOnHandDeckCardById(0),map.getRegionById(0)));
-        assertEquals(null,khorn.playCard(khorn.getOnHandDeckCardById(0),map.getRegionById(0)));
+        assertEquals(true,khorn.playCard(khorn.getOnHandDeckCardById(0),map.getRegionById(0)));
+        assertEquals(false,khorn.playCard(khorn.getOnHandDeckCardById(0),map.getRegionById(0)));
     }
 
     /**

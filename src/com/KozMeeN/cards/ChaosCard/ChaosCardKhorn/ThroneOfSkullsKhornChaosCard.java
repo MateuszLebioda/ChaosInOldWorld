@@ -8,7 +8,7 @@ public class ThroneOfSkullsKhornChaosCard extends ChaosCardKhorn {
         name = ChaosCardKhorn.THRONE_OF_SKULLS;
         descriptions = ChaosCardKhorn.THRONE_OF_SKULLS_DESCRIPTIONS;
         dominationUse = true;
-        manaCost = 1;
+        abilityPowerCost = 1;
     }
 
     public static ChaosCard getCard() {

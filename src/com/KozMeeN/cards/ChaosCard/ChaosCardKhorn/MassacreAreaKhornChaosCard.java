@@ -8,7 +8,7 @@ public class MassacreAreaKhornChaosCard extends ChaosCardKhorn {
         name = ChaosCardKhorn.MASSACRE_AREA;
         descriptions = ChaosCardKhorn.MASSACRE_AREA_DESCRIPTIONS;
         nowUse = true;
-        manaCost = 1;
+        abilityPowerCost = 1;
     }
 
     public static ChaosCard getCard() {
