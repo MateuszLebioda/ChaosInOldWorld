@@ -8,7 +8,7 @@ public class RitualMorderKhornChaosCard extends ChaosCardKhorn {
         name = ChaosCardKhorn.RITUAL_MURDER;
         descriptions = ChaosCardKhorn.RITUAL_MURDER_DESCRIPTIONS;
         nowUse = true;
-        manaCost = 1;
+        abilityPowerCost = 1;
     }
 
     public static ChaosCard getCard() {

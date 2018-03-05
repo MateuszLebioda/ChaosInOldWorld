@@ -11,7 +11,7 @@ public class BloodyCrazeKhornChaosCard extends ChaosCardKhorn{
         name = ChaosCardKhorn.BLOODY_CRAZE;
         descriptions = ChaosCardKhorn.BLOODY_CRAZE_DESCRIPTIONS;
         fightUse = true;
-        manaCost = 0;
+        abilityPowerCost = 0;
     }
 
     public static ChaosCard getCard() {

@@ -13,33 +13,37 @@ public class MapOfGame {
         makeMap();
     }
 
-    private final List<Region> boxesOnBoard = new ArrayList<>();
+    private final List<Region> regions = new ArrayList<>();
 
     /**
      * method wll create map, add every Region to map.
      */
     private void makeMap(){
-        boxesOnBoard.add(NorscaRegion.getBox());
-        boxesOnBoard.add(TrollLandRegion.getBox());
-        boxesOnBoard.add(KislevRegion.getBox());
-        boxesOnBoard.add(EmpiereRegion.getBox());
-        boxesOnBoard.add(BretoniaRegion.getBox());
-        boxesOnBoard.add(EstaliaRegion.getBox());
-        boxesOnBoard.add(TileaRegion.getBox());
-        boxesOnBoard.add(BorderPrincesRegion.getBox());
-        boxesOnBoard.add(BadLandsRegion.getBox());
+        regions.add(NorscaRegion.getBox());
+        regions.add(TrollLandRegion.getBox());
+        regions.add(KislevRegion.getBox());
+        regions.add(EmpiereRegion.getBox());
+        regions.add(BretoniaRegion.getBox());
+        regions.add(EstaliaRegion.getBox());
+        regions.add(TileaRegion.getBox());
+        regions.add(BorderPrincesRegion.getBox());
+        regions.add(BadLandsRegion.getBox());
     }
 
     /**
      * method show us which of Regions have at least one card in boxes.
      */
     public Region getRegionById(int id){
-        return boxesOnBoard.get(id);
+        return regions.get(id);
     }
 
     public void checkAllBox(){
-        for(Region list:boxesOnBoard){
+        for(Region list: regions){
             list.checkSlots();
         }
+    }
+
+    public List<Region> getAllRegions(){
+        return regions;
     }
 }

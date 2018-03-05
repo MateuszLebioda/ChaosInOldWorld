@@ -1,8 +1,10 @@
 package com.KozMeeN.game;
 
 
+import com.KozMeeN.cards.ChaosCard.ChaosCard;
 import com.KozMeeN.champions.Champion;
 import com.KozMeeN.champions.KhornChampion;
+import com.KozMeeN.map.BoxesOnBoard.Region;
 import com.KozMeeN.map.MapOfGame;
 
 import java.util.ArrayList;
@@ -17,24 +19,48 @@ public class Game {
 
          map = new MapOfGame();
          chamionsList.add(new KhornChampion());
-         chamionsList.get(0).choseCard(5);
-         championPlayCard(chamionsList.get(Champion.KHORN_ID),map,random.nextInt(3),random.nextInt(9));
+         Champion khorn = chamionsList.get(Champion.KHORN_ID);
+         play();
     }
 
     private MapOfGame map;
     private List<Champion> chamionsList = new ArrayList<>();
 
+    void play(){
+        int i = 0;
+        while(chamionsList.get(Champion.KHORN_ID).canPlay()){
+            chamionsList.get(Champion.KHORN_ID).choseCard(1);
+            chamionsList.get(Champion.KHORN_ID).playCard(chamionsList.get(Champion.KHORN_ID).getOnHandDeckCardById(0),map.getRegionById(i%9));
+            i++;
+        }
+    }
 
-    /**
-     * @param champ champion who will play the card
-     * @param map map which we use
-     * @param cardId which card we want to play
-     * @param regionId where we want to play the card
-     */
-    public void championPlayCard(Champion champ, MapOfGame map,int cardId,int regionId){
-        champ.choseCard(2);
-        champ.playCard(champ.getOnHandDeckCardById(cardId),map.getRegionById(regionId));
+    public void championPlayCard(Champion champ,ChaosCard card,Region region){
 
-        map.checkAllBox();
+        champ.playCard(champ.getOnHandDeckCardById(0),region);
+
+    }
+
+    void removeAllChaosCards(){
+        ChaosCard card;
+        for(Region region:map.getAllRegions()) {
+            if (region.isBoxOneOccupied()){
+               card = region.clearBoxOneCard();
+                switch (card.getChampion()) {
+                    case "Khorn": {
+                      chamionsList.get(0).addCardToThrowDeck(card);
+                    }
+                }
+            }
+            if(region.isBoxTwoOccupied()) {
+                card = region.clearTwoOneCard();
+                switch (card.getChampion()) {
+                    case "Khorn": {
+                        chamionsList.get(0).addCardToThrowDeck(card);
+                    }
+                }
+            }
+
+        }
     }
 }

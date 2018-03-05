@@ -2,6 +2,8 @@ package com.KozMeeN.champions;
 
 import com.KozMeeN.cards.ChaosCard.ChaosCard;
 import com.KozMeeN.cards.ChaosCard.ChaosCardKhorn.*;
+import com.KozMeeN.figures.Figurine;
+import com.KozMeeN.figures.KhornFigures.WarriorKhornFigurine;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -14,7 +16,8 @@ public class KhornChampion extends Champion {
       abilityPoints = startAbilityPoints;
       valuesOfDangerPoints = new int[]{3, 6, 12, 14, 17, 23, 28, 31, 32, 100};
       indexOfDangerPoints = 0;
-      deck = getDeck();
+      deck = createDeck();
+      onHandFigurine = createFigurine();
       dangerPoints = valuesOfDangerPoints[indexOfDangerPoints];
       winPoints = 0;
     }
@@ -24,7 +27,7 @@ public class KhornChampion extends Champion {
      * @return deck
      */
     @Override
-    public List<ChaosCard> getDeck(){
+    public List<ChaosCard> createDeck(){
       List<ChaosCard> deck = new ArrayList<ChaosCard>();
 
       addCard(4, BloodyCrazeKhornChaosCard.getCard(),deck);
@@ -38,6 +41,15 @@ public class KhornChampion extends Champion {
       return deck;
     }
 
+    @Override
+    protected List<Figurine> createFigurine() {
+        List<Figurine> figurine = new ArrayList<>();
+
+        addFigures(4, WarriorKhornFigurine.getInstance(),figurine);
+        addFigures(6, WarriorKhornFigurine.getInstance(),figurine);
+        addFigures(1, WarriorKhornFigurine.getInstance(),figurine);
+        return figurine;
+    }
 
     /**
      * need to add Uni tests!!!! when methods will be end.

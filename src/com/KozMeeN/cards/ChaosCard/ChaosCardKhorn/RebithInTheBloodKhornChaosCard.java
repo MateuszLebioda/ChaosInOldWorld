@@ -8,7 +8,7 @@ public class RebithInTheBloodKhornChaosCard extends ChaosCardKhorn {
         name = ChaosCardKhorn.REBIRTH_IN_THE_BLOOD;
         descriptions = ChaosCardKhorn.REBIRTH_IN_THE_BLOOD_DESCRIPTIONS;
         fightUse = true;
-        manaCost = 2;
+        abilityPowerCost = 2;
     }
 
     public static ChaosCard getCard() {
