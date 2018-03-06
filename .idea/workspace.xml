@@ -3,13 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6f6be399-f033-480c-955e-0a5738b99077" name="Default" comment="Finished tokenHolder">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChaosInOldWorld/com/KozMeeN/game/Game.class" afterPath="$PROJECT_DIR$/out/production/ChaosInOldWorld/com/KozMeeN/game/Game.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChaosInOldWorld/com/KozMeeN/map/BoxesOnBoard/Region.class" afterPath="$PROJECT_DIR$/out/production/ChaosInOldWorld/com/KozMeeN/map/BoxesOnBoard/Region.class" />
-      <change beforePath="$PROJECT_DIR$/src/com/KozMeeN/game/Game.java" afterPath="$PROJECT_DIR$/src/com/KozMeeN/game/Game.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/KozMeeN/map/BoxesOnBoard/Region.java" afterPath="$PROJECT_DIR$/src/com/KozMeeN/map/BoxesOnBoard/Region.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/KozMeeN/token/PeasantToken.java" afterPath="$PROJECT_DIR$/src/com/KozMeeN/token/PeasantToken.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/KozMeeN/token/Token.java" afterPath="$PROJECT_DIR$/src/com/KozMeeN/token/Token.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/KozMeeN/token/TokenHolder.java" afterPath="$PROJECT_DIR$/src/com/KozMeeN/token/TokenHolder.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,8 +45,8 @@
       <file leaf-file-name="TokenHolder.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/KozMeeN/token/TokenHolder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
-              <caret line="99" column="4" lean-forward="false" selection-start-line="99" selection-start-column="4" selection-end-line="99" selection-end-column="4" />
+            <state relative-caret-position="231">
+              <caret line="11" column="38" lean-forward="true" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#createTokenDeck#0;class#TokenHolder#0" expanded="false" />
@@ -157,10 +150,10 @@
         <option value="$PROJECT_DIR$/src/com/KozMeeN/token/PeasantToken.java" />
         <option value="$PROJECT_DIR$/src/com/KozMeeN/token/WarpstoneToken.java" />
         <option value="$PROJECT_DIR$/src/com/KozMeeN/champions/KhornChampion.java" />
-        <option value="$PROJECT_DIR$/src/com/KozMeeN/token/TokenHolder.java" />
         <option value="$PROJECT_DIR$/src/com/KozMeeN/token/Token.java" />
         <option value="$PROJECT_DIR$/src/com/KozMeeN/game/Game.java" />
         <option value="$PROJECT_DIR$/src/com/KozMeeN/map/BoxesOnBoard/Region.java" />
+        <option value="$PROJECT_DIR$/src/com/KozMeeN/token/TokenHolder.java" />
       </list>
     </option>
   </component>
@@ -525,7 +518,7 @@
       <workItem from="1520273282918" duration="115000" />
       <workItem from="1520359744270" duration="4861000" />
       <workItem from="1520367349483" duration="4412000" />
-      <workItem from="1520372409865" duration="653000" />
+      <workItem from="1520372409865" duration="859000" />
     </task>
     <task id="LOCAL-00001" summary="Added abstract class Token, now Ill extends it to create all necessary Tokens.">
       <created>1520361062258</created>
@@ -541,7 +534,14 @@
       <option name="project" value="LOCAL" />
       <updated>1520364557236</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Finished tokenHolder">
+      <created>1520373068515</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1520373068515</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -577,7 +577,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64479000" />
+    <option name="totallyTimeSpent" value="64685000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -590,10 +590,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1060" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29808775" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29808775" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3991276" sideWeight="0.503125" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1127,8 +1128,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/KozMeeN/token/TokenHolder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="99" column="4" lean-forward="false" selection-start-line="99" selection-start-column="4" selection-end-line="99" selection-end-column="4" />
+        <state relative-caret-position="231">
+          <caret line="11" column="38" lean-forward="true" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#createTokenDeck#0;class#TokenHolder#0" expanded="false" />
