@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6f6be399-f033-480c-955e-0a5738b99077" name="Default" comment="Finished tokenHolder">
+    <list default="true" id="6f6be399-f033-480c-955e-0a5738b99077" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -518,7 +518,7 @@
       <workItem from="1520273282918" duration="115000" />
       <workItem from="1520359744270" duration="4861000" />
       <workItem from="1520367349483" duration="4412000" />
-      <workItem from="1520372409865" duration="859000" />
+      <workItem from="1520372409865" duration="878000" />
     </task>
     <task id="LOCAL-00001" summary="Added abstract class Token, now Ill extends it to create all necessary Tokens.">
       <created>1520361062258</created>
@@ -541,7 +541,14 @@
       <option name="project" value="LOCAL" />
       <updated>1520373068515</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Finished tokenHolder">
+      <created>1520373282964</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1520373282964</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -577,7 +584,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64685000" />
+    <option name="totallyTimeSpent" value="64704000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
