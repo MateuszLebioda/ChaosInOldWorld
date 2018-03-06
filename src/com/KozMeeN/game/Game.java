@@ -6,6 +6,7 @@ import com.KozMeeN.champions.Champion;
 import com.KozMeeN.champions.KhornChampion;
 import com.KozMeeN.map.BoxesOnBoard.Region;
 import com.KozMeeN.map.MapOfGame;
+import com.KozMeeN.token.*;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -28,12 +29,6 @@ public class Game {
 
 
     public void play(){
-        int i = 0;
-        while(chamionsList.get(Champion.KHORN_ID).canPlay()){
-            chamionsList.get(Champion.KHORN_ID).choseCard(1);
-            chamionsList.get(Champion.KHORN_ID).playCard(chamionsList.get(Champion.KHORN_ID).getOnHandDeckCardById(0),map.getRegionById(i%9));
-            i++;
-        }
     }
 
     public void championPlayCard(Champion champ,ChaosCard card,Region region){
@@ -42,6 +37,9 @@ public class Game {
 
     }
 
+    /**
+     * Method wil be use in final phase wen we will remove all cards from every region and put in into throw deck.
+     */
     void removeAllChaosCards(){
         ChaosCard card;
         for(Region region:map.getAllRegions()) {
@@ -64,4 +62,5 @@ public class Game {
 
         }
     }
+
 }
