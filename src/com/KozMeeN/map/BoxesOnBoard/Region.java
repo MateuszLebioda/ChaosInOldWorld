@@ -2,6 +2,7 @@ package com.KozMeeN.map.BoxesOnBoard;
 
 import com.KozMeeN.cards.ChaosCard.ChaosCard;
 import com.KozMeeN.figures.Figurine;
+import com.KozMeeN.token.Token;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -17,35 +18,11 @@ public abstract class Region {
         boxTwo=null;
     }
 
-    public static String BAD_LANDS_NAME = "Złe ziemie";
-    public static String BORDER_PRINCES_NAME = "Księstwa graniczne";
-    public static String TILEA_NAME = "Tilea";
-    public static String ESTALIA_NAME = "Estalia";
-    public static String BRETONIA_NAME = "Bretonia";
-    public static String EMPIRE_NAME = "Imperium";
-    public static String KISLEV_NAME = "Kislev";
-    public static String TROLL_LAND_NAME = "Kraina troli";
-    public static String NORSKA_NAME = "Norska";
-
-    /**
-     * we create the map static, I means the map will be whenever the same, the location will be on 1st plays, if we create map 1st time
-     * and 100th time, so I add static values to easier finding of the searched region.
-     */
-    public static int NORSKA_ID = 0;
-    public static int TROLL_LAND_ID = 1;
-    public static int KISLEV_ID = 2;
-    public static int EMPIRE_ID = 3;
-    public static int BRETONIA_ID = 4;
-    public static int ESTALIA_ID = 5;
-    public static int TILEA_ID = 6;
-    public static int BORDER_PRINCES_ID = 7;
-    public static int BAD_LANDS_ID = 8;
-
-
     ChaosCard boxOne;
     ChaosCard boxTwo;
 
     List<Figurine> figurineList = new ArrayList<>();
+    List<Token> tokenList = new ArrayList<>();
 
     boolean destroyed;
     boolean populous;
@@ -66,9 +43,10 @@ public abstract class Region {
         return name;
     }
     public boolean isBoxOneOccupied(){
-        if(boxOne == null) return false;
-        return true;
+        return boxOne != null;
     }
+
+
 
     /**
      * on every box we have two box on card, when player can play your card. 1st card should be play on boxOne 2nd on boxTwo.
@@ -79,8 +57,7 @@ public abstract class Region {
         boxOne = card;
     }
     public boolean isBoxTwoOccupied(){
-        if(boxTwo == null) return false;
-        return true;
+        return boxTwo != null;
     }
     public void setBoxTwo(ChaosCard card){
         boxTwo = card;
@@ -122,8 +99,39 @@ public abstract class Region {
     public void writeNames(){
         System.out.println("Name:" + name);
     }
+    public void writeTokens(){
+        System.out.println(name);
+        for(Token list:tokenList){
+            System.out.println(list.getName());
+        }
+    }
 
     public void addToFigurineList(Figurine figurine) {
         figurineList.add(figurine);
     }
+    public void addToTokenList(Token token){ tokenList.add(token); }
+
+    public static String BAD_LANDS_NAME = "Złe ziemie";
+    public static String BORDER_PRINCES_NAME = "Księstwa graniczne";
+    public static String TILEA_NAME = "Tilea";
+    public static String ESTALIA_NAME = "Estalia";
+    public static String BRETONIA_NAME = "Bretonia";
+    public static String EMPIRE_NAME = "Imperium";
+    public static String KISLEV_NAME = "Kislev";
+    public static String TROLL_LAND_NAME = "Kraina troli";
+    public static String NORSKA_NAME = "Norska";
+
+    /**
+     * we create the map static, I means the map will be whenever the same, the location will be on 1st plays, if we create map 1st time
+     * and 100th time, so I add static values to easier finding of the searched region.
+     */
+    public static int NORSKA_ID = 0;
+    public static int TROLL_LAND_ID = 1;
+    public static int KISLEV_ID = 2;
+    public static int EMPIRE_ID = 3;
+    public static int BRETONIA_ID = 4;
+    public static int ESTALIA_ID = 5;
+    public static int TILEA_ID = 6;
+    public static int BORDER_PRINCES_ID = 7;
+    public static int BAD_LANDS_ID = 8;
 }

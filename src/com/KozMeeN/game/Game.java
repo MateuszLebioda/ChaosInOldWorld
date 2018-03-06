@@ -15,20 +15,23 @@ import java.util.Random;
 
 public class Game {
 
-    Random random = new Random();
     public Game(){
-
          map = new MapOfGame();
          chamionsList.add(new KhornChampion());
          Champion khorn = chamionsList.get(Champion.KHORN_ID);
+         tokenHolder = new TokenHolder(map);
          play();
     }
 
     private MapOfGame map;
     private List<Champion> chamionsList = new ArrayList<>();
+    private TokenHolder tokenHolder;
 
 
     public void play(){
+        for(Region list:map.getAllRegions()){
+            list.writeTokens();
+        }
     }
 
     public void championPlayCard(Champion champ,ChaosCard card,Region region){
