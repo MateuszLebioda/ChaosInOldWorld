@@ -26,7 +26,8 @@ public class Game {
     private MapOfGame map;
     private List<Champion> chamionsList = new ArrayList<>();
 
-    void play(){
+
+    public void play(){
         int i = 0;
         while(chamionsList.get(Champion.KHORN_ID).canPlay()){
             chamionsList.get(Champion.KHORN_ID).choseCard(1);

@@ -1,46 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6f6be399-f033-480c-955e-0a5738b99077" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/KozMeeN/figures/KhornFigures/BosKhornFigurine.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/KozMeeN/figures/KhornFigures/CultistKhornFigurine.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/KozMeeN/figures/KhornFigures/KhornFigurine.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/KozMeeN/figures/KhornFigures/WarriorKhornFigurine.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/test/com/KozMeeN/map/MapOfGameTest.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Arquillian_JUnit_Release.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Arquillian_JUnit_Release.xml" />
+    <list default="true" id="6f6be399-f033-480c-955e-0a5738b99077" name="Default" comment="Added abstract class Token, now Ill extends it to create all necessary Tokens.">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/KozMeeN/token/Token.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/out/production/ChaosInOldWorld/com/KozMeeN/Main.class" afterPath="$PROJECT_DIR$/out/production/ChaosInOldWorld/com/KozMeeN/Main.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChaosInOldWorld/com/KozMeeN/cards/ChaosCard/ChaosCard.class" afterPath="$PROJECT_DIR$/out/production/ChaosInOldWorld/com/KozMeeN/cards/ChaosCard/ChaosCard.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChaosInOldWorld/com/KozMeeN/cards/ChaosCard/ChaosCardKhorn/BloodyCrazeKhornChaosCard.class" afterPath="$PROJECT_DIR$/out/production/ChaosInOldWorld/com/KozMeeN/cards/ChaosCard/ChaosCardKhorn/BloodyCrazeKhornChaosCard.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChaosInOldWorld/com/KozMeeN/cards/ChaosCard/ChaosCardKhorn/CallOfTheGodKhornChaosCard.class" afterPath="$PROJECT_DIR$/out/production/ChaosInOldWorld/com/KozMeeN/cards/ChaosCard/ChaosCardKhorn/CallOfTheGodKhornChaosCard.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChaosInOldWorld/com/KozMeeN/cards/ChaosCard/ChaosCardKhorn/MassacreAreaKhornChaosCard.class" afterPath="$PROJECT_DIR$/out/production/ChaosInOldWorld/com/KozMeeN/cards/ChaosCard/ChaosCardKhorn/MassacreAreaKhornChaosCard.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChaosInOldWorld/com/KozMeeN/cards/ChaosCard/ChaosCardKhorn/RebithInTheBloodKhornChaosCard.class" afterPath="$PROJECT_DIR$/out/production/ChaosInOldWorld/com/KozMeeN/cards/ChaosCard/ChaosCardKhorn/RebithInTheBloodKhornChaosCard.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChaosInOldWorld/com/KozMeeN/cards/ChaosCard/ChaosCardKhorn/RitualMorderKhornChaosCard.class" afterPath="$PROJECT_DIR$/out/production/ChaosInOldWorld/com/KozMeeN/cards/ChaosCard/ChaosCardKhorn/RitualMorderKhornChaosCard.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChaosInOldWorld/com/KozMeeN/cards/ChaosCard/ChaosCardKhorn/ThroneOfSkullsKhornChaosCard.class" afterPath="$PROJECT_DIR$/out/production/ChaosInOldWorld/com/KozMeeN/cards/ChaosCard/ChaosCardKhorn/ThroneOfSkullsKhornChaosCard.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChaosInOldWorld/com/KozMeeN/cards/ChaosCard/ChaosCardKhorn/WarCryKhornChaosCard.class" afterPath="$PROJECT_DIR$/out/production/ChaosInOldWorld/com/KozMeeN/cards/ChaosCard/ChaosCardKhorn/WarCryKhornChaosCard.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChaosInOldWorld/com/KozMeeN/champions/Champion.class" afterPath="$PROJECT_DIR$/out/production/ChaosInOldWorld/com/KozMeeN/champions/Champion.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChaosInOldWorld/com/KozMeeN/champions/KhornChampion.class" afterPath="$PROJECT_DIR$/out/production/ChaosInOldWorld/com/KozMeeN/champions/KhornChampion.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChaosInOldWorld/com/KozMeeN/figures/figurine.class" afterPath="$PROJECT_DIR$/out/production/ChaosInOldWorld/com/KozMeeN/figures/figurine.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChaosInOldWorld/com/KozMeeN/game/Game.class" afterPath="$PROJECT_DIR$/out/production/ChaosInOldWorld/com/KozMeeN/game/Game.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChaosInOldWorld/com/KozMeeN/map/BoxesOnBoard/Region.class" afterPath="$PROJECT_DIR$/out/production/ChaosInOldWorld/com/KozMeeN/map/BoxesOnBoard/Region.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChaosInOldWorld/com/KozMeeN/map/MapOfGame.class" afterPath="$PROJECT_DIR$/out/production/ChaosInOldWorld/com/KozMeeN/map/MapOfGame.class" />
-      <change beforePath="$PROJECT_DIR$/out/test/ChaosInOldWorld/com/KozMeeN/champions/khornChampionTest.class" afterPath="$PROJECT_DIR$/out/test/ChaosInOldWorld/com/KozMeeN/champions/khornChampionTest.class" />
-      <change beforePath="$PROJECT_DIR$/src/com/KozMeeN/Main.java" afterPath="$PROJECT_DIR$/src/com/KozMeeN/Main.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/KozMeeN/cards/ChaosCard/ChaosCard.java" afterPath="$PROJECT_DIR$/src/com/KozMeeN/cards/ChaosCard/ChaosCard.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/KozMeeN/cards/ChaosCard/ChaosCardKhorn/BloodyCrazeKhornChaosCard.java" afterPath="$PROJECT_DIR$/src/com/KozMeeN/cards/ChaosCard/ChaosCardKhorn/BloodyCrazeKhornChaosCard.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/KozMeeN/cards/ChaosCard/ChaosCardKhorn/CallOfTheGodKhornChaosCard.java" afterPath="$PROJECT_DIR$/src/com/KozMeeN/cards/ChaosCard/ChaosCardKhorn/CallOfTheGodKhornChaosCard.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/KozMeeN/cards/ChaosCard/ChaosCardKhorn/MassacreAreaKhornChaosCard.java" afterPath="$PROJECT_DIR$/src/com/KozMeeN/cards/ChaosCard/ChaosCardKhorn/MassacreAreaKhornChaosCard.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/KozMeeN/cards/ChaosCard/ChaosCardKhorn/RebithInTheBloodKhornChaosCard.java" afterPath="$PROJECT_DIR$/src/com/KozMeeN/cards/ChaosCard/ChaosCardKhorn/RebithInTheBloodKhornChaosCard.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/KozMeeN/cards/ChaosCard/ChaosCardKhorn/RitualMorderKhornChaosCard.java" afterPath="$PROJECT_DIR$/src/com/KozMeeN/cards/ChaosCard/ChaosCardKhorn/RitualMorderKhornChaosCard.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/KozMeeN/cards/ChaosCard/ChaosCardKhorn/ThroneOfSkullsKhornChaosCard.java" afterPath="$PROJECT_DIR$/src/com/KozMeeN/cards/ChaosCard/ChaosCardKhorn/ThroneOfSkullsKhornChaosCard.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/KozMeeN/cards/ChaosCard/ChaosCardKhorn/WarCryKhornChaosCard.java" afterPath="$PROJECT_DIR$/src/com/KozMeeN/cards/ChaosCard/ChaosCardKhorn/WarCryKhornChaosCard.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/KozMeeN/champions/Champion.java" afterPath="$PROJECT_DIR$/src/com/KozMeeN/champions/Champion.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/KozMeeN/champions/KhornChampion.java" afterPath="$PROJECT_DIR$/src/com/KozMeeN/champions/KhornChampion.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/KozMeeN/figures/figurine.java" afterPath="$PROJECT_DIR$/src/com/KozMeeN/figures/Figurine.java" />
+      <change beforePath="$PROJECT_DIR$/out/production/ChaosInOldWorld/com/KozMeeN/StartGui.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/ChaosInOldWorld/com/intellij/uiDesigner/core/AbstractLayout.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/ChaosInOldWorld/com/intellij/uiDesigner/core/DimensionInfo.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/ChaosInOldWorld/com/intellij/uiDesigner/core/GridConstraints.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/ChaosInOldWorld/com/intellij/uiDesigner/core/GridLayoutManager.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/ChaosInOldWorld/com/intellij/uiDesigner/core/HorizontalInfo.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/ChaosInOldWorld/com/intellij/uiDesigner/core/LayoutState.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/ChaosInOldWorld/com/intellij/uiDesigner/core/Spacer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/ChaosInOldWorld/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/ChaosInOldWorld/com/intellij/uiDesigner/core/SupportCode.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/ChaosInOldWorld/com/intellij/uiDesigner/core/Util.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/ChaosInOldWorld/com/intellij/uiDesigner/core/VerticalInfo.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/ChaosInOldWorld/resources/Chaos_in_the_Old_World.jpg" afterPath="" />
       <change beforePath="$PROJECT_DIR$/src/com/KozMeeN/game/Game.java" afterPath="$PROJECT_DIR$/src/com/KozMeeN/game/Game.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/KozMeeN/map/BoxesOnBoard/Region.java" afterPath="$PROJECT_DIR$/src/com/KozMeeN/map/BoxesOnBoard/Region.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/KozMeeN/map/MapOfGame.java" afterPath="$PROJECT_DIR$/src/com/KozMeeN/map/MapOfGame.java" />
-      <change beforePath="$PROJECT_DIR$/test/com/KozMeeN/champions/khornChampionTest.java" afterPath="$PROJECT_DIR$/test/com/KozMeeN/champions/khornChampionTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,15 +30,58 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/KozMeeN/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
+            <state relative-caret-position="0">
               <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding>
                 <element signature="e#117#118#0" expanded="true" />
                 <element signature="e#155#156#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Game.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/KozMeeN/game/Game.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="29" column="16" lean-forward="false" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
+              <folding>
+                <element signature="method#championPlayCard#0;class#Game#0" expanded="false" />
+                <element signature="method#removeAllChaosCards#0;class#Game#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ChaosCard.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/KozMeeN/cards/ChaosCard/ChaosCard.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Token.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/KozMeeN/token/Token.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NorscaRegion.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/KozMeeN/map/BoxesOnBoard/NorscaRegion.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -87,6 +108,11 @@
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -96,11 +122,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/KozMeeN/cards/ChaosCardKhorn/MasacreArea.java" />
-        <option value="$PROJECT_DIR$/src/com/KozMeeN/cards/ChaosCardKhorn/MasacreAreaKhornChaosCard.java" />
-        <option value="$PROJECT_DIR$/src/com/KozMeeN/cards/ChaosCardKhorn/RebithInTheBloodKhornChaosCard.java" />
-        <option value="$PROJECT_DIR$/src/com/KozMeeN/cards/ChaosCardKhorn/ThroneOfSkullsKhornChaosCard.java" />
-        <option value="$PROJECT_DIR$/src/com/KozMeeN/cards/ChaosCardKhorn/BloodyCrazeKhornChaosCard.java" />
         <option value="$PROJECT_DIR$/src/com/KozMeeN/cards/ChaosCardKhorn/CallOfTheGodKhornChaosCard.java" />
         <option value="$PROJECT_DIR$/src/com/KozMeeN/cards/ChaosCardKhorn/MassacreAreaKhornChaosCard.java" />
         <option value="$PROJECT_DIR$/src/com/KozMeeN/cards/ChaosCardKhorn/RitualMorderKhornChaosCard.java" />
@@ -138,15 +159,20 @@
         <option value="$PROJECT_DIR$/src/com/KozMeeN/figures/KhornFigures/KhornFigures.java" />
         <option value="$PROJECT_DIR$/src/com/KozMeeN/champions/KhornChampion.java" />
         <option value="$PROJECT_DIR$/src/com/KozMeeN/figures/Figurine.java" />
-        <option value="$PROJECT_DIR$/src/com/KozMeeN/cards/ChaosCard/ChaosCard.java" />
         <option value="$PROJECT_DIR$/test/com/KozMeeN/champions/khornChampionTest.java" />
         <option value="$PROJECT_DIR$/src/com/KozMeeN/map/MapOfGame.java" />
         <option value="$PROJECT_DIR$/src/com/KozMeeN/map/BoxesOnBoard/Region.java" />
-        <option value="$PROJECT_DIR$/src/com/KozMeeN/game/Game.java" />
         <option value="$PROJECT_DIR$/src/com/KozMeeN/champions/Champion.java" />
         <option value="$PROJECT_DIR$/src/com/KozMeeN/StartGui.form" />
         <option value="$PROJECT_DIR$/src/com/KozMeeN/StartGui.java" />
         <option value="$PROJECT_DIR$/src/com/KozMeeN/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/KozMeeN/cards/ChaosCard/ChaosCard/ChaosCard.java" />
+        <option value="$PROJECT_DIR$/src/com/KozMeeN/cards/ChaosCard/ChaosCard.java" />
+        <option value="$PROJECT_DIR$/src/com/KozMeeN/chips/Chips.java" />
+        <option value="$PROJECT_DIR$/src/com/KozMeeN/chips/Chip.java" />
+        <option value="$PROJECT_DIR$/src/com/KozMeeN/chips/Token.java" />
+        <option value="$PROJECT_DIR$/src/com/KozMeeN/token/Token.java" />
+        <option value="$PROJECT_DIR$/src/com/KozMeeN/game/Game.java" />
       </list>
     </option>
   </component>
@@ -156,7 +182,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="552" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
@@ -192,6 +218,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -199,18 +226,50 @@
               <item name="ChaosInOldWorld" type="b2602c69:ProjectViewProjectNode" />
               <item name="ChaosInOldWorld" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ChaosInOldWorld" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ChaosInOldWorld" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ChaosInOldWorld" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ChaosInOldWorld" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="KozMeeN" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ChaosInOldWorld" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ChaosInOldWorld" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="KozMeeN" type="462c0819:PsiDirectoryNode" />
+              <item name="cards" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ChaosInOldWorld" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ChaosInOldWorld" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="KozMeeN" type="462c0819:PsiDirectoryNode" />
+              <item name="cards" type="462c0819:PsiDirectoryNode" />
+              <item name="ChaosCard" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ChaosInOldWorld" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ChaosInOldWorld" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="KozMeeN" type="462c0819:PsiDirectoryNode" />
+              <item name="token" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -450,6 +509,8 @@
       <workItem from="1519999456064" duration="71000" />
       <workItem from="1520256992969" duration="100000" />
       <workItem from="1520272767398" duration="122000" />
+      <workItem from="1520273282918" duration="115000" />
+      <workItem from="1520359744270" duration="1301000" />
     </task>
     <servers />
   </component>
@@ -486,7 +547,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54438000" />
+    <option name="totallyTimeSpent" value="55854000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -498,35 +559,35 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1060" extended-state="7" />
+    <frame x="-9" y="-9" width="1938" height="1060" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29808775" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3991276" sideWeight="0.503125" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7649044" sideWeight="0.49785176" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27446568" sideWeight="0.49785176" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28683916" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295838" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2905478" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21428572" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295838" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3991276" sideWeight="0.496875" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29808775" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295838" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -564,8 +625,38 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added abstract class Token, now Ill extends it to create all necessary Tokens." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added abstract class Token, now Ill extends it to create all necessary Tokens." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -582,17 +673,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/KozMeeN/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="8" column="35" lean-forward="false" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-          <folding>
-            <element signature="e#117#118#0" expanded="true" />
-            <element signature="e#155#156#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/KozMeeN/champions/Champion.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
@@ -788,13 +868,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/KozMeeN/map/BoxesOnBoard/NorscaRegion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ChaosInOldWorld.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -865,13 +938,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/KozMeeN/cards/ChaosCard/ChaosCard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="12" column="29" lean-forward="false" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/KozMeeN/champions/KhornChampion.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -883,13 +949,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
           <caret line="40" column="32" lean-forward="false" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/KozMeeN/map/BoxesOnBoard/Region.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1890">
-          <caret line="113" column="7" lean-forward="true" selection-start-line="113" selection-start-column="7" selection-end-line="113" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -936,22 +995,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/KozMeeN/game/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="23" column="5" lean-forward="false" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/KozMeeN/StartGui.form" />
     <entry file="file://$PROJECT_DIR$/src/com/KozMeeN/StartGui.java" />
     <entry file="file://$PROJECT_DIR$/src/com/KozMeeN/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
+        <state relative-caret-position="0">
           <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
             <element signature="e#117#118#0" expanded="true" />
             <element signature="e#155#156#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/KozMeeN/map/BoxesOnBoard/Region.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="28" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="128" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/KozMeeN/map/BoxesOnBoard/NorscaRegion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/KozMeeN/cards/ChaosCard/ChaosCard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/KozMeeN/token/Token.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/KozMeeN/game/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="29" column="16" lean-forward="false" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
+          <folding>
+            <element signature="method#championPlayCard#0;class#Game#0" expanded="false" />
+            <element signature="method#removeAllChaosCards#0;class#Game#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1033,6 +1128,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Arquillian JUnit:Release</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
