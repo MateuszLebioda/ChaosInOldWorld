@@ -16,7 +16,7 @@ public class khornChampionTest {
 
     @Before
     public void startUp(){
-        khorn = new KhornChampion();
+        khorn = new KhorneChampion();
         map = new MapOfGame();
     }
 

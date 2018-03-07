@@ -2,12 +2,11 @@ package com.KozMeeN.cards.ChaosCard.ChaosCardKhorn;
 
 import com.KozMeeN.cards.ChaosCard.ChaosCard;
 
-public class WarCryKhornChaosCard extends ChaosCardKhorn {
+public class WarCryKhornChaosCard extends ChaosCardKhorne {
 
     private WarCryKhornChaosCard(){
-        name = ChaosCardKhorn.WAR_CRY;
-        descriptions = ChaosCardKhorn.WAR_CRY_DESCRIPTIONS;
-        nowUse = true;
+        name = ChaosCardKhorne.WAR_CRY;
+        descriptions = ChaosCardKhorne.WAR_CRY_DESCRIPTIONS;
         abilityPowerCost = 1;
     }
 

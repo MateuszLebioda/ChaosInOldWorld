@@ -2,12 +2,11 @@ package com.KozMeeN.cards.ChaosCard.ChaosCardKhorn;
 
 import com.KozMeeN.cards.ChaosCard.ChaosCard;
 
-public class CallOfTheGodKhornChaosCard extends ChaosCardKhorn {
+public class CallOfTheGodKhornChaosCard extends ChaosCardKhorne {
 
     private CallOfTheGodKhornChaosCard(){
-        name = ChaosCardKhorn.CALL_OF_THE_GOD;
-        descriptions = ChaosCardKhorn.CALL_OF_THE_GOD_DESCRIPTIONS;
-        nowUse = true;
+        name = ChaosCardKhorne.CALL_OF_THE_GOD;
+        descriptions = ChaosCardKhorne.CALL_OF_THE_GOD_DESCRIPTIONS;
         abilityPowerCost = 2;
     }
 

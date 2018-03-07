@@ -2,12 +2,11 @@ package com.KozMeeN.cards.ChaosCard.ChaosCardKhorn;
 
 import com.KozMeeN.cards.ChaosCard.ChaosCard;
 
-public class RebithInTheBloodKhornChaosCard extends ChaosCardKhorn {
+public class RebithInTheBloodKhornChaosCard extends ChaosCardKhorne {
 
     private RebithInTheBloodKhornChaosCard(){
-        name = ChaosCardKhorn.REBIRTH_IN_THE_BLOOD;
-        descriptions = ChaosCardKhorn.REBIRTH_IN_THE_BLOOD_DESCRIPTIONS;
-        fightUse = true;
+        name = ChaosCardKhorne.REBIRTH_IN_THE_BLOOD;
+        descriptions = ChaosCardKhorne.REBIRTH_IN_THE_BLOOD_DESCRIPTIONS;
         abilityPowerCost = 2;
     }
 

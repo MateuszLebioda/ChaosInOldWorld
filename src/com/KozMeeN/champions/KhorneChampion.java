@@ -8,10 +8,10 @@ import com.KozMeeN.figures.KhornFigures.WarriorKhornFigurine;
 import java.util.ArrayList;
 import java.util.List;
 
-public class KhornChampion extends Champion {
+public class KhorneChampion extends Champion {
 
-    public KhornChampion(){
-      name = Champion.KHORN_NAME;
+    public KhorneChampion(){
+      name = Champion.KHORNE_NAME;
       startAbilityPoints = 7;
       abilityPoints = startAbilityPoints;
       valuesOfDangerPoints = new int[]{3, 6, 12, 14, 17, 23, 28, 31, 32, 100};

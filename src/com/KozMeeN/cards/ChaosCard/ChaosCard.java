@@ -3,9 +3,6 @@ package com.KozMeeN.cards.ChaosCard;
 public abstract class ChaosCard {
 
     protected int abilityPowerCost;
-    protected boolean nowUse=false;
-    protected boolean fightUse=false;
-    protected boolean dominationUse=false;
 
     protected String name;
     protected String descriptions;
@@ -40,11 +37,6 @@ public abstract class ChaosCard {
         System.out.println("Descriptions: " + descriptions);
         System.out.println("Mana cost: " + abilityPowerCost);
         if(magicSymbol) System.out.println("Magic symbol");
-
-        /*System.out.println("Uses: ");
-        if(nowUse) System.out.println("After use");
-        if(fightUse) System.out.println("Fight use");
-        if(dominationUse) System.out.println("Dominations Use");*/
     }
 
     /**

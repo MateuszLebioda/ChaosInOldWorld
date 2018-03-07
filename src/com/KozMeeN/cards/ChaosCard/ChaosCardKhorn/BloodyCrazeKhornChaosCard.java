@@ -5,12 +5,11 @@ import com.KozMeeN.cards.ChaosCard.ChaosCard;
 /**
  * Object representing "Krwawy szła" card.
  */
-public class BloodyCrazeKhornChaosCard extends ChaosCardKhorn{
+public class BloodyCrazeKhornChaosCard extends ChaosCardKhorne {
 
     private BloodyCrazeKhornChaosCard(){
-        name = ChaosCardKhorn.BLOODY_CRAZE;
-        descriptions = ChaosCardKhorn.BLOODY_CRAZE_DESCRIPTIONS;
-        fightUse = true;
+        name = ChaosCardKhorne.BLOODY_CRAZE;
+        descriptions = ChaosCardKhorne.BLOODY_CRAZE_DESCRIPTIONS;
         abilityPowerCost = 0;
     }
 

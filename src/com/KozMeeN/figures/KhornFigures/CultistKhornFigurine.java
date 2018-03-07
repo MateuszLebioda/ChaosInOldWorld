@@ -7,7 +7,7 @@ public class CultistKhornFigurine extends KhornFigurine {
 
     public CultistKhornFigurine(){
         name = KhornFigurine.CULTIST_NAME;
-        champion = Champion.KHORN_NAME;
+        champion = Champion.KHORNE_NAME;
         description = KhornFigurine.CULTIST_DESCRIPTION;
         abilityPowerCost = 1;
         damage = 0;

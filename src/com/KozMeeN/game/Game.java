@@ -3,22 +3,21 @@ package com.KozMeeN.game;
 
 import com.KozMeeN.cards.ChaosCard.ChaosCard;
 import com.KozMeeN.champions.Champion;
-import com.KozMeeN.champions.KhornChampion;
+import com.KozMeeN.champions.KhorneChampion;
 import com.KozMeeN.map.BoxesOnBoard.Region;
 import com.KozMeeN.map.MapOfGame;
 import com.KozMeeN.token.*;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Random;
 
 
 public class Game {
 
     public Game(){
          map = new MapOfGame();
-         chamionsList.add(new KhornChampion());
-         Champion khorn = chamionsList.get(Champion.KHORN_ID);
+         chamionsList.add(new KhorneChampion());
+         Champion khorn = chamionsList.get(Champion.KHORNE_ID);
          tokenHolder = new TokenHolder(map);
          play();
     }

@@ -19,8 +19,10 @@ public abstract class Champion {
         //canPlay = true;
     }
 
-    public static String KHORN_NAME = "Khorn";
-    public static int KHORN_ID = 0;
+    public static String KHORNE_NAME = "Khorn";
+    public static int KHORNE_ID = 0;
+    public static String NURGLE_NAME = "Nurgle";
+    public static int NURGLE_ID = 1;
     /**Name of ChaosGods
      */
     protected String name;

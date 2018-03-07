@@ -3,11 +3,11 @@ package com.KozMeeN.cards.ChaosCard.ChaosCardKhorn;
 import com.KozMeeN.cards.ChaosCard.ChaosCard;
 import com.KozMeeN.champions.Champion;
 
-abstract class ChaosCardKhorn extends ChaosCard {
+abstract class ChaosCardKhorne extends ChaosCard {
 
-    ChaosCardKhorn(){
+    ChaosCardKhorne(){
        magicSymbol = false;
-       champion = Champion.KHORN_NAME;
+       champion = Champion.KHORNE_NAME;
     }
     static String BLOODY_CRAZE = "Krwawy szał";
     static String MASSACRE_AREA = "Obszar rzezi";

@@ -7,7 +7,7 @@ public class BosKhornFigurine extends KhornFigurine {
 
     public BosKhornFigurine(){
         name = KhornFigurine.BOS_NAME;
-        champion = Champion.KHORN_NAME;
+        champion = Champion.KHORNE_NAME;
         description = KhornFigurine.BOS_DESCRIPTION;
         abilityPowerCost = 3;
         damage = 4;
