@@ -1,4 +1,4 @@
-package com.KozMeeN.figures;
+package com.KozMeeN.figurine;
 
 /**
  * @author KozmeeN created on 26.02.2018

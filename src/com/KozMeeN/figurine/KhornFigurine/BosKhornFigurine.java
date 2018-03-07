@@ -1,10 +1,9 @@
-package com.KozMeeN.figures.KhornFigures;
+package com.KozMeeN.figurine.KhornFigurine;
 
 import com.KozMeeN.champions.Champion;
-import com.KozMeeN.figures.Figurine;
+import com.KozMeeN.figurine.Figurine;
 
 public class BosKhornFigurine extends KhornFigurine {
-
     public BosKhornFigurine(){
         name = KhornFigurine.BOS_NAME;
         champion = Champion.KHORNE_NAME;

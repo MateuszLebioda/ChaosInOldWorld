@@ -1,7 +1,7 @@
-package com.KozMeeN.figures.KhornFigures;
+package com.KozMeeN.figurine.KhornFigurine;
 
 import com.KozMeeN.champions.Champion;
-import com.KozMeeN.figures.Figurine;
+import com.KozMeeN.figurine.Figurine;
 
 public class CultistKhornFigurine extends KhornFigurine {
 

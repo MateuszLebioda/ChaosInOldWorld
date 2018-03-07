@@ -1,6 +1,6 @@
-package com.KozMeeN.figures.KhornFigures;
+package com.KozMeeN.figurine.KhornFigurine;
 
-import com.KozMeeN.figures.Figurine;
+import com.KozMeeN.figurine.Figurine;
 /**
  * @author KozmeeN created on 26.02.2018
  *

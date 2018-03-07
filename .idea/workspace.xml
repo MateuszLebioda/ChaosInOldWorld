@@ -1,33 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6f6be399-f033-480c-955e-0a5738b99077" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/KozMeeN/cards/ChaosCard/ChaosCardNurgle/AuraOfPlagueNurgleChaosCard.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/KozMeeN/cards/ChaosCard/ChaosCardNurgle/ChaosCardNurgle.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/KozMeeN/cards/ChaosCard/ChaosCardNurgle/DistributionOfTheUniverseNurgleChaosCard.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/KozMeeN/cards/ChaosCard/ChaosCardNurgle/FinalDistributionNurgleChaosCard.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/KozMeeN/cards/ChaosCard/ChaosCardNurgle/FluNurgleChaosCard.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/KozMeeN/cards/ChaosCard/ChaosCardNurgle/OilRainNurgleChaosCard.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/KozMeeN/cards/ChaosCard/ChaosCardNurgle/SmellOfDeathNurgleChaosCard.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/KozMeeN/cards/ChaosCard/ChaosCardNurgle/TouchOfPlagueNurgleChaosCard.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/KozMeeN/cards/ChaosCard/ChaosCardNurgle/TuberculosisEpidemicNurgleChaosCard.java" />
+    <list default="true" id="6f6be399-f033-480c-955e-0a5738b99077" name="Default" comment="Added NurgleFigurines and NurgleChampion.">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/KozMeeN/champions/NurgleChampion.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/KozMeeN/figurine/NurgleFigurine/BosNurgleFigure.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/KozMeeN/figurine/NurgleFigurine/CultistNurgleFigurine.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/KozMeeN/figurine/NurgleFigurine/NurgleFigurine.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/KozMeeN/figurine/NurgleFigurine/WarriorNurgleFigure.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/com/KozMeeN/cards/ChaosCard/ChaosCard.java" afterPath="$PROJECT_DIR$/src/com/KozMeeN/cards/ChaosCard/ChaosCard.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/KozMeeN/cards/ChaosCard/ChaosCardKhorn/BloodyCrazeKhornChaosCard.java" afterPath="$PROJECT_DIR$/src/com/KozMeeN/cards/ChaosCard/ChaosCardKhorn/BloodyCrazeKhornChaosCard.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/KozMeeN/cards/ChaosCard/ChaosCardKhorn/CallOfTheGodKhornChaosCard.java" afterPath="$PROJECT_DIR$/src/com/KozMeeN/cards/ChaosCard/ChaosCardKhorn/CallOfTheGodKhornChaosCard.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/KozMeeN/cards/ChaosCard/ChaosCardKhorn/ChaosCardKhorn.java" afterPath="$PROJECT_DIR$/src/com/KozMeeN/cards/ChaosCard/ChaosCardKhorn/ChaosCardKhorne.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/KozMeeN/cards/ChaosCard/ChaosCardKhorn/MassacreAreaKhornChaosCard.java" afterPath="$PROJECT_DIR$/src/com/KozMeeN/cards/ChaosCard/ChaosCardKhorn/MassacreAreaKhornChaosCard.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/KozMeeN/cards/ChaosCard/ChaosCardKhorn/RebithInTheBloodKhornChaosCard.java" afterPath="$PROJECT_DIR$/src/com/KozMeeN/cards/ChaosCard/ChaosCardKhorn/RebithInTheBloodKhornChaosCard.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/KozMeeN/cards/ChaosCard/ChaosCardKhorn/RitualMorderKhornChaosCard.java" afterPath="$PROJECT_DIR$/src/com/KozMeeN/cards/ChaosCard/ChaosCardKhorn/RitualMorderKhornChaosCard.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/KozMeeN/cards/ChaosCard/ChaosCardKhorn/ThroneOfSkullsKhornChaosCard.java" afterPath="$PROJECT_DIR$/src/com/KozMeeN/cards/ChaosCard/ChaosCardKhorn/ThroneOfSkullsKhornChaosCard.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/KozMeeN/cards/ChaosCard/ChaosCardKhorn/WarCryKhornChaosCard.java" afterPath="$PROJECT_DIR$/src/com/KozMeeN/cards/ChaosCard/ChaosCardKhorn/WarCryKhornChaosCard.java" />
       <change beforePath="$PROJECT_DIR$/src/com/KozMeeN/champions/Champion.java" afterPath="$PROJECT_DIR$/src/com/KozMeeN/champions/Champion.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/KozMeeN/champions/KhornChampion.java" afterPath="$PROJECT_DIR$/src/com/KozMeeN/champions/KhorneChampion.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/KozMeeN/figures/KhornFigures/BosKhornFigurine.java" afterPath="$PROJECT_DIR$/src/com/KozMeeN/figures/KhornFigures/BosKhornFigurine.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/KozMeeN/figures/KhornFigures/CultistKhornFigurine.java" afterPath="$PROJECT_DIR$/src/com/KozMeeN/figures/KhornFigures/CultistKhornFigurine.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/KozMeeN/figures/KhornFigures/WarriorKhornFigurine.java" afterPath="$PROJECT_DIR$/src/com/KozMeeN/figures/KhornFigures/WarriorKhornFigurine.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/KozMeeN/game/Game.java" afterPath="$PROJECT_DIR$/src/com/KozMeeN/game/Game.java" />
-      <change beforePath="$PROJECT_DIR$/test/com/KozMeeN/champions/khornChampionTest.java" afterPath="$PROJECT_DIR$/test/com/KozMeeN/champions/khornChampionTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/KozMeeN/champions/KhorneChampion.java" afterPath="$PROJECT_DIR$/src/com/KozMeeN/champions/KhorneChampion.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/KozMeeN/figures/Figurine.java" afterPath="$PROJECT_DIR$/src/com/KozMeeN/figurine/Figurine.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/KozMeeN/figures/KhornFigures/BosKhornFigurine.java" afterPath="$PROJECT_DIR$/src/com/KozMeeN/figurine/KhornFigurine/BosKhornFigurine.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/KozMeeN/figures/KhornFigures/CultistKhornFigurine.java" afterPath="$PROJECT_DIR$/src/com/KozMeeN/figurine/KhornFigurine/CultistKhornFigurine.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/KozMeeN/figures/KhornFigures/KhornFigurine.java" afterPath="$PROJECT_DIR$/src/com/KozMeeN/figurine/KhornFigurine/KhornFigurine.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/KozMeeN/figures/KhornFigures/WarriorKhornFigurine.java" afterPath="$PROJECT_DIR$/src/com/KozMeeN/figurine/KhornFigurine/WarriorKhornFigurine.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/KozMeeN/map/BoxesOnBoard/Region.java" afterPath="$PROJECT_DIR$/src/com/KozMeeN/map/BoxesOnBoard/Region.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,15 +27,68 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="ChaosCardNurgle.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ChaosCardNurgle.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/KozMeeN/cards/ChaosCard/ChaosCardNurgle/ChaosCardNurgle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" column="40" lean-forward="true" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+            <state relative-caret-position="420">
+              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#220#221#0" expanded="true" />
                 <element signature="e#267#268#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NurgleChampion.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/KozMeeN/champions/NurgleChampion.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="188">
+              <caret line="27" column="45" lean-forward="false" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#NurgleChampion#0;class#NurgleChampion#0" expanded="false" />
+                <element signature="method#createFigurine#0;class#NurgleChampion#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="KhorneChampion.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/KozMeeN/champions/KhorneChampion.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="537">
+              <caret line="94" column="14" lean-forward="true" selection-start-line="94" selection-start-column="14" selection-end-line="94" selection-end-column="14" />
+              <folding>
+                <element signature="method#createDeck#0;class#KhorneChampion#0" expanded="false" />
+                <element signature="method#createFigurine#0;class#KhorneChampion#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BosKhornFigurine.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/KozMeeN/figurine/KhornFigurine/BosKhornFigurine.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Champion.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/KozMeeN/champions/Champion.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="251">
+              <caret line="208" column="7" lean-forward="true" selection-start-line="208" selection-start-column="7" selection-end-line="208" selection-end-column="7" />
+              <folding>
+                <element signature="method#getOnHandDeckCardById#0;class#Champion#0" expanded="false" />
+                <element signature="e#7273#7274#0" expanded="true" />
+                <element signature="e#7313#7314#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -90,19 +131,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/KozMeeN/figures/KhornFigures.java" />
-        <option value="$PROJECT_DIR$/src/com/KozMeeN/figures/KhornFigures/CultistKhorn.java" />
-        <option value="$PROJECT_DIR$/src/com/KozMeeN/figures/figurine.java" />
-        <option value="$PROJECT_DIR$/src/com/KozMeeN/figures/KhornFigures/CultistKhornFigures.java" />
-        <option value="$PROJECT_DIR$/src/com/KozMeeN/figures/KhornFigures/WariorKhornFigures.java" />
-        <option value="$PROJECT_DIR$/src/com/KozMeeN/figures/KhornFigures/WarriorKhornFigures.java" />
-        <option value="$PROJECT_DIR$/src/com/KozMeeN/figures/KhornFigures/BosKhornFigures.java" />
-        <option value="$PROJECT_DIR$/src/com/KozMeeN/figures/KhornFigures/KhornFigures.java" />
-        <option value="$PROJECT_DIR$/src/com/KozMeeN/figures/Figurine.java" />
-        <option value="$PROJECT_DIR$/test/com/KozMeeN/champions/khornChampionTest.java" />
-        <option value="$PROJECT_DIR$/src/com/KozMeeN/map/MapOfGame.java" />
-        <option value="$PROJECT_DIR$/src/com/KozMeeN/StartGui.form" />
-        <option value="$PROJECT_DIR$/src/com/KozMeeN/StartGui.java" />
         <option value="$PROJECT_DIR$/src/com/KozMeeN/Main.java" />
         <option value="$PROJECT_DIR$/src/com/KozMeeN/cards/ChaosCard/ChaosCard/ChaosCard.java" />
         <option value="$PROJECT_DIR$/src/com/KozMeeN/chips/Chips.java" />
@@ -119,7 +147,6 @@
         <option value="$PROJECT_DIR$/src/com/KozMeeN/game/Game.java" />
         <option value="$PROJECT_DIR$/src/com/KozMeeN/map/BoxesOnBoard/Region.java" />
         <option value="$PROJECT_DIR$/src/com/KozMeeN/token/TokenHolder.java" />
-        <option value="$PROJECT_DIR$/src/com/KozMeeN/champions/Champion.java" />
         <option value="$PROJECT_DIR$/src/com/KozMeeN/cards/ChaosCard/ChaosCardKhorn/ChaosCardKhorn.java" />
         <option value="$PROJECT_DIR$/src/com/KozMeeN/cards/ChaosCard/ChaosCardNurgle/ChaosCardNurgle.java" />
         <option value="$PROJECT_DIR$/src/com/KozMeeN/cards/ChaosCard/ChaosCardKhorn/ChaosCardKhorne.java" />
@@ -141,6 +168,20 @@
         <option value="$PROJECT_DIR$/src/com/KozMeeN/cards/ChaosCard/ChaosCardNurgle/TuberculosisEpidemicNurgleChaosCard.java" />
         <option value="$PROJECT_DIR$/src/com/KozMeeN/cards/ChaosCard/ChaosCardNurgle/SmellOfDeathNurgleChaosCard.java" />
         <option value="$PROJECT_DIR$/src/com/KozMeeN/cards/ChaosCard/ChaosCardNurgle/OilRainNurgleChaosCard.java" />
+        <option value="$PROJECT_DIR$/src/com/KozMeeN/figures/NurgleFigures/NurgleFigurine.java" />
+        <option value="$PROJECT_DIR$/src/com/KozMeeN/figures/NurgleFigures/BosKhornFigure.java" />
+        <option value="$PROJECT_DIR$/src/com/KozMeeN/figures/KhornFigures/BosKhornFigurine.java" />
+        <option value="$PROJECT_DIR$/src/com/KozMeeN/figures/NurgleFigures/BosNurgleFigure.java" />
+        <option value="$PROJECT_DIR$/src/com/KozMeeN/figures/NurgleFigures/WarriorNurgleFigure.java" />
+        <option value="$PROJECT_DIR$/src/com/KozMeeN/figures/NurgleFigures/CultistNurgleFigures.java" />
+        <option value="$PROJECT_DIR$/src/com/KozMeeN/figures/NurgleFigures/CultistNurgleFigurines.java" />
+        <option value="$PROJECT_DIR$/src/com/KozMeeN/figures/NurgleFigures/CultistNurgleFigurine.java" />
+        <option value="$PROJECT_DIR$/src/com/KozMeeN/figurines/NurgleFigures/CultistNurgleFigurine.java" />
+        <option value="$PROJECT_DIR$/src/com/KozMeeN/figurines/NurgleFigurine/CultistNurgleFigurine.java" />
+        <option value="$PROJECT_DIR$/src/com/KozMeeN/figurine/NurgleFigurine/CultistNurgleFigurine.java" />
+        <option value="$PROJECT_DIR$/src/com/KozMeeN/champions/Champion.java" />
+        <option value="$PROJECT_DIR$/src/com/KozMeeN/champions/NurgleChampion.java" />
+        <option value="$PROJECT_DIR$/src/com/KozMeeN/champions/KhorneChampion.java" />
       </list>
     </option>
   </component>
@@ -227,25 +268,14 @@
               <item name="ChaosInOldWorld" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="KozMeeN" type="462c0819:PsiDirectoryNode" />
-              <item name="cards" type="462c0819:PsiDirectoryNode" />
-              <item name="ChaosCard" type="462c0819:PsiDirectoryNode" />
-              <item name="ChaosCardKhorn" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ChaosInOldWorld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ChaosInOldWorld" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="KozMeeN" type="462c0819:PsiDirectoryNode" />
-              <item name="cards" type="462c0819:PsiDirectoryNode" />
-              <item name="ChaosCard" type="462c0819:PsiDirectoryNode" />
-              <item name="ChaosCardNurgle" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ChaosInOldWorld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ChaosInOldWorld" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="KozMeeN" type="462c0819:PsiDirectoryNode" />
               <item name="champions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ChaosInOldWorld" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ChaosInOldWorld" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="KozMeeN" type="462c0819:PsiDirectoryNode" />
+              <item name="figurine" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -500,7 +530,7 @@
       <workItem from="1520359744270" duration="4861000" />
       <workItem from="1520367349483" duration="4412000" />
       <workItem from="1520372409865" duration="878000" />
-      <workItem from="1520430319965" duration="3418000" />
+      <workItem from="1520430319965" duration="5734000" />
     </task>
     <task id="LOCAL-00001" summary="Added abstract class Token, now Ill extends it to create all necessary Tokens.">
       <created>1520361062258</created>
@@ -537,7 +567,14 @@
       <option name="project" value="LOCAL" />
       <updated>1520431053444</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Add all Nurgle cards, and I notice Khorn is wrong name should be Khorne so i strted edit it.">
+      <created>1520433829947</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1520433829947</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -573,7 +610,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68150000" />
+    <option name="totallyTimeSpent" value="70466000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -589,7 +626,8 @@
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295838" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29808775" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3991276" sideWeight="0.503125" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -599,6 +637,7 @@
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22019334" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295838" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -609,11 +648,9 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29808775" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295838" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -632,7 +669,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3991276" sideWeight="0.496875" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295838" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29808775" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -718,7 +755,9 @@
     <MESSAGE value="Created class to describe all tokens, and started creat a TokenHolder." />
     <MESSAGE value="Finished tokenHolder" />
     <MESSAGE value="Created new Branch" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created new Branch" />
+    <MESSAGE value="Add all Nurgle cards, and I notice Khorn is wrong name should be Khorne so i strted edit it." />
+    <MESSAGE value="Added NurgleFigurines and NurgleChampion." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added NurgleFigurines and NurgleChampion." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -730,46 +769,11 @@
           <option name="timeStamp" value="29" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="34" />
+      <option name="time" value="35" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/KozMeeN/map/BoxesOnBoard/BorderPrincesRegion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/KozMeeN/map/BoxesOnBoard/EstaliaRegion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/KozMeeN/map/BoxesOnBoard/EmpiereRegion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/KozMeeN/map/BoxesOnBoard/TrollLandRegion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/KozMeeN/map/BoxesOnBoard/BretoniaRegion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/com/KozMeeN/champions/championTest.java" />
     <entry file="file://$PROJECT_DIR$/src/com/KozMeeN/player/Player.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -792,35 +796,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/KozMeeN/figures/KhornFigures/CultistKhornFigurine.java">
+    <entry file="file://$PROJECT_DIR$/src/com/KozMeeN/figurine/KhornFigurine/CultistKhornFigurine.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
           <caret line="7" column="4" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="18" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/KozMeeN/figures/KhornFigures/WarriorKhornFigurine.java">
+    <entry file="file://$PROJECT_DIR$/src/com/KozMeeN/figurine/KhornFigurine/WarriorKhornFigurine.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
           <caret line="7" column="4" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="18" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/KozMeeN/figures/KhornFigures/KhornFigurine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="139" lean-forward="false" selection-start-line="14" selection-start-column="139" selection-end-line="14" selection-end-column="139" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/KozMeeN/figures/KhornFigures/BosKhornFigurine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="30" lean-forward="false" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/KozMeeN/figures/Figurine.java">
+    <entry file="file://$PROJECT_DIR$/src/com/KozMeeN/figurine/Figurine.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="651">
           <caret line="36" column="32" lean-forward="false" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
@@ -833,6 +823,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -880,6 +871,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -950,6 +942,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1029">
           <caret line="58" column="36" lean-forward="false" selection-start-line="58" selection-start-column="36" selection-end-line="58" selection-end-column="36" />
+          <folding>
+            <element signature="e#988#989#0" expanded="true" />
+            <element signature="e#1419#1420#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -969,26 +965,6 @@
             <element signature="e#117#118#0" expanded="false" />
             <element signature="e#155#156#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/KozMeeN/champions/KhorneChampion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-          <folding>
-            <element signature="method#createDeck#0;class#KhorneChampion#0" expanded="false" />
-            <element signature="method#createFigurine#0;class#KhorneChampion#0" expanded="false" />
-            <element signature="method#dangerPointsProfit#0;class#KhorneChampion#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/KozMeeN/champions/Champion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="31" lean-forward="false" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1136,14 +1112,105 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/KozMeeN/figurine/NurgleFigurine/NurgleFigurine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="141" lean-forward="false" selection-start-line="11" selection-start-column="141" selection-end-line="11" selection-end-column="141" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/KozMeeN/figurine/KhornFigurine/KhornFigurine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/KozMeeN/figurine/NurgleFigurine/WarriorNurgleFigure.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/KozMeeN/figurine/NurgleFigurine/CultistNurgleFigurine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="20" column="33" lean-forward="true" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/KozMeeN/figurine/NurgleFigurine/BosNurgleFigure.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/KozMeeN/cards/ChaosCard/ChaosCardNurgle/ChaosCardNurgle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="40" lean-forward="true" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+        <state relative-caret-position="420">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#220#221#0" expanded="true" />
             <element signature="e#267#268#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/KozMeeN/figurine/KhornFigurine/BosKhornFigurine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/KozMeeN/champions/Champion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="208" column="7" lean-forward="true" selection-start-line="208" selection-start-column="7" selection-end-line="208" selection-end-column="7" />
+          <folding>
+            <element signature="method#getOnHandDeckCardById#0;class#Champion#0" expanded="false" />
+            <element signature="e#7273#7274#0" expanded="true" />
+            <element signature="e#7313#7314#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/KozMeeN/champions/NurgleChampion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="27" column="45" lean-forward="false" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#NurgleChampion#0;class#NurgleChampion#0" expanded="false" />
+            <element signature="method#createFigurine#0;class#NurgleChampion#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/KozMeeN/champions/KhorneChampion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="537">
+          <caret line="94" column="14" lean-forward="true" selection-start-line="94" selection-start-column="14" selection-end-line="94" selection-end-column="14" />
+          <folding>
+            <element signature="method#createDeck#0;class#KhorneChampion#0" expanded="false" />
+            <element signature="method#createFigurine#0;class#KhorneChampion#0" expanded="false" />
           </folding>
         </state>
       </provider>

@@ -1,7 +1,7 @@
 package com.KozMeeN.champions;
 
 import com.KozMeeN.cards.ChaosCard.ChaosCard;
-import com.KozMeeN.figures.Figurine;
+import com.KozMeeN.figurine.Figurine;
 import com.KozMeeN.map.BoxesOnBoard.Region;
 
 import java.util.ArrayList;
@@ -27,10 +27,6 @@ public abstract class Champion {
      */
     protected String name;
 
-    /**
-     * if can play == true player can do action in his round.
-     */
-    //private boolean canPlay;
 
     /**
      * maxAbilityPoints maximum values of AbilityPoints
@@ -46,9 +42,9 @@ public abstract class Champion {
      * deck of our champion
      */
 
-    protected List<ChaosCard> deck = new ArrayList<ChaosCard>();
-    private  List<ChaosCard> onHandDeck = new ArrayList<ChaosCard>();
-    public List<ChaosCard> throwDeck = new ArrayList<ChaosCard>();
+    protected List<ChaosCard> deck = new ArrayList<>();
+    private  List<ChaosCard> onHandDeck = new ArrayList<>();
+    public List<ChaosCard> throwDeck = new ArrayList<>();
 
     protected List<Figurine> onHandFigurine = new ArrayList<>();
 
@@ -207,9 +203,7 @@ public abstract class Champion {
      * Your turn is end when yours manaPoints ale equals 0.
      */
     public boolean canPlay(){
-        if(abilityPoints>0){
-            return true;
-        }return false;
+        return abilityPoints > 0;
     }
 
     /**
@@ -268,8 +262,8 @@ public abstract class Champion {
     }
 
     /**
-     * simple method thanks that we can add the figures to our deck.
-     * @param howMany how many figures we want to add.
+     * simple method thanks that we can add the figurine to our deck.
+     * @param howMany how many figurine we want to add.
      * @param figures specific type of cards which we want to add.
      * @param deck in which deck you want to add cards.
      */

@@ -2,8 +2,10 @@ package com.KozMeeN.champions;
 
 import com.KozMeeN.cards.ChaosCard.ChaosCard;
 import com.KozMeeN.cards.ChaosCard.ChaosCardKhorn.*;
-import com.KozMeeN.figures.Figurine;
-import com.KozMeeN.figures.KhornFigures.WarriorKhornFigurine;
+import com.KozMeeN.figurine.Figurine;
+import com.KozMeeN.figurine.KhornFigurine.BosKhornFigurine;
+import com.KozMeeN.figurine.KhornFigurine.CultistKhornFigurine;
+import com.KozMeeN.figurine.KhornFigurine.WarriorKhornFigurine;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -45,9 +47,9 @@ public class KhorneChampion extends Champion {
     protected List<Figurine> createFigurine() {
         List<Figurine> figurine = new ArrayList<>();
 
-        addFigures(4, WarriorKhornFigurine.getInstance(),figurine);
+        addFigures(4, CultistKhornFigurine.getInstance(),figurine);
         addFigures(6, WarriorKhornFigurine.getInstance(),figurine);
-        addFigures(1, WarriorKhornFigurine.getInstance(),figurine);
+        addFigures(1, BosKhornFigurine.getInstance(),figurine);
         return figurine;
     }
 
@@ -60,7 +62,7 @@ public class KhorneChampion extends Champion {
         switch (indexOfDangerPoints){
             case 0:
 
-            /**
+            /*
              * Champions get 4 WinPoints;
              * DONE!!!!
              */
@@ -70,7 +72,7 @@ public class KhorneChampion extends Champion {
                 break;
             }
 
-            /**
+            /*
              * Champions get ProgressCard;
              * NOT DONE!!!
              */
@@ -80,7 +82,7 @@ public class KhorneChampion extends Champion {
                 break;
             }
 
-            /**
+            /*
              * Champion get 2 ChaosCards.
              * DONE!
              */
@@ -90,7 +92,7 @@ public class KhorneChampion extends Champion {
                 choseCard(2);
                 break;
             }
-            /**
+            /*
              * Champion get win game on WinPoints way.
              * DONE!
              */

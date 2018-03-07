@@ -1,7 +1,7 @@
 package com.KozMeeN.map.BoxesOnBoard;
 
 import com.KozMeeN.cards.ChaosCard.ChaosCard;
-import com.KozMeeN.figures.Figurine;
+import com.KozMeeN.figurine.Figurine;
 import com.KozMeeN.token.Token;
 
 import java.util.ArrayList;
